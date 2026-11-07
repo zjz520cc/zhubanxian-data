@@ -1,8 +1,8 @@
 {
  "schema": "promax.cloud_draws/1",
- "updated_at": "2026-11-08T04:31:16+08:00",
- "status": "ok",
- "source": "import",
+ "updated_at": "2026-11-08T04:37:18+08:00",
+ "status": "no-new",
+ "source": "A",
  "latest": 2026311,
  "count": 311,
  "draws": [
