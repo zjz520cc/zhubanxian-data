@@ -1,0 +1,4362 @@
+{
+ "schema": "promax.draws/1",
+ "updated_at": "2026-11-08T04:49:25+08:00",
+ "latest": 2026311,
+ "count": 311,
+ "draws": [
+  {
+   "period": 2026001,
+   "balls": [
+    27,
+    8,
+    43,
+    33,
+    42,
+    11
+   ],
+   "special": 29,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026002,
+   "balls": [
+    48,
+    7,
+    4,
+    3,
+    15,
+    11
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026003,
+   "balls": [
+    30,
+    44,
+    7,
+    15,
+    42,
+    17
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026004,
+   "balls": [
+    22,
+    19,
+    7,
+    35,
+    49,
+    36
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026005,
+   "balls": [
+    46,
+    19,
+    20,
+    36,
+    13,
+    17
+   ],
+   "special": 43,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026006,
+   "balls": [
+    35,
+    41,
+    15,
+    6,
+    46,
+    21
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026007,
+   "balls": [
+    28,
+    40,
+    45,
+    34,
+    44,
+    15
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026008,
+   "balls": [
+    5,
+    39,
+    36,
+    19,
+    29,
+    45
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026009,
+   "balls": [
+    17,
+    18,
+    6,
+    49,
+    7,
+    22
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026010,
+   "balls": [
+    23,
+    38,
+    24,
+    49,
+    11,
+    30
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026011,
+   "balls": [
+    32,
+    10,
+    7,
+    5,
+    48,
+    15
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026012,
+   "balls": [
+    25,
+    26,
+    33,
+    20,
+    41,
+    45
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026013,
+   "balls": [
+    9,
+    19,
+    44,
+    27,
+    37,
+    6
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026014,
+   "balls": [
+    38,
+    13,
+    12,
+    8,
+    43,
+    31
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026015,
+   "balls": [
+    10,
+    8,
+    30,
+    20,
+    15,
+    33
+   ],
+   "special": 31,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026016,
+   "balls": [
+    34,
+    12,
+    48,
+    26,
+    40,
+    38
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026017,
+   "balls": [
+    44,
+    18,
+    31,
+    41,
+    33,
+    2
+   ],
+   "special": 32,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026018,
+   "balls": [
+    40,
+    42,
+    43,
+    31,
+    25,
+    15
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026019,
+   "balls": [
+    42,
+    22,
+    45,
+    19,
+    7,
+    25
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026020,
+   "balls": [
+    9,
+    37,
+    14,
+    47,
+    11,
+    24
+   ],
+   "special": 12,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026021,
+   "balls": [
+    47,
+    45,
+    33,
+    7,
+    24,
+    10
+   ],
+   "special": 42,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026022,
+   "balls": [
+    39,
+    8,
+    20,
+    37,
+    46,
+    30
+   ],
+   "special": 18,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026023,
+   "balls": [
+    6,
+    29,
+    36,
+    38,
+    18,
+    31
+   ],
+   "special": 47,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026024,
+   "balls": [
+    10,
+    45,
+    25,
+    15,
+    23,
+    44
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026025,
+   "balls": [
+    46,
+    10,
+    41,
+    6,
+    9,
+    14
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026026,
+   "balls": [
+    44,
+    34,
+    24,
+    13,
+    37,
+    42
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026027,
+   "balls": [
+    11,
+    16,
+    46,
+    10,
+    18,
+    49
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026028,
+   "balls": [
+    17,
+    47,
+    28,
+    39,
+    32,
+    49
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026029,
+   "balls": [
+    47,
+    8,
+    5,
+    4,
+    3,
+    18
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026030,
+   "balls": [
+    3,
+    6,
+    47,
+    1,
+    35,
+    4
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026031,
+   "balls": [
+    38,
+    25,
+    7,
+    19,
+    11,
+    5
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026032,
+   "balls": [
+    23,
+    17,
+    11,
+    20,
+    10,
+    39
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026033,
+   "balls": [
+    14,
+    22,
+    46,
+    33,
+    8,
+    11
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026034,
+   "balls": [
+    38,
+    45,
+    35,
+    24,
+    30,
+    23
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026035,
+   "balls": [
+    32,
+    47,
+    44,
+    36,
+    19,
+    41
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026036,
+   "balls": [
+    44,
+    39,
+    11,
+    20,
+    27,
+    48
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026037,
+   "balls": [
+    34,
+    42,
+    39,
+    13,
+    44,
+    45
+   ],
+   "special": 43,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026038,
+   "balls": [
+    6,
+    40,
+    49,
+    34,
+    12,
+    20
+   ],
+   "special": 42,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026039,
+   "balls": [
+    31,
+    20,
+    8,
+    29,
+    10,
+    4
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026040,
+   "balls": [
+    46,
+    6,
+    29,
+    27,
+    11,
+    49
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026041,
+   "balls": [
+    2,
+    8,
+    17,
+    44,
+    32,
+    27
+   ],
+   "special": 36,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026042,
+   "balls": [
+    38,
+    22,
+    17,
+    19,
+    1,
+    18
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026043,
+   "balls": [
+    9,
+    35,
+    42,
+    40,
+    33,
+    3
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026044,
+   "balls": [
+    46,
+    17,
+    39,
+    47,
+    48,
+    38
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026045,
+   "balls": [
+    20,
+    38,
+    22,
+    13,
+    42,
+    27
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026046,
+   "balls": [
+    13,
+    9,
+    20,
+    22,
+    39,
+    36
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026047,
+   "balls": [
+    40,
+    35,
+    23,
+    42,
+    46,
+    47
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026048,
+   "balls": [
+    8,
+    38,
+    29,
+    32,
+    46,
+    16
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026049,
+   "balls": [
+    28,
+    42,
+    22,
+    49,
+    12,
+    31
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026050,
+   "balls": [
+    10,
+    13,
+    30,
+    37,
+    33,
+    44
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026051,
+   "balls": [
+    40,
+    42,
+    44,
+    6,
+    14,
+    38
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026052,
+   "balls": [
+    15,
+    46,
+    14,
+    13,
+    40,
+    35
+   ],
+   "special": 38,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026053,
+   "balls": [
+    16,
+    12,
+    33,
+    17,
+    41,
+    18
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026054,
+   "balls": [
+    37,
+    30,
+    11,
+    19,
+    49,
+    32
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026055,
+   "balls": [
+    31,
+    28,
+    20,
+    21,
+    39,
+    9
+   ],
+   "special": 14,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026056,
+   "balls": [
+    45,
+    9,
+    6,
+    7,
+    10,
+    26
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026057,
+   "balls": [
+    21,
+    29,
+    40,
+    30,
+    26,
+    34
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026058,
+   "balls": [
+    20,
+    38,
+    13,
+    21,
+    33,
+    40
+   ],
+   "special": 31,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026059,
+   "balls": [
+    29,
+    19,
+    24,
+    43,
+    28,
+    12
+   ],
+   "special": 10,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026060,
+   "balls": [
+    5,
+    27,
+    40,
+    34,
+    39,
+    1
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026061,
+   "balls": [
+    46,
+    17,
+    8,
+    25,
+    2,
+    37
+   ],
+   "special": 29,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026062,
+   "balls": [
+    46,
+    29,
+    6,
+    49,
+    35,
+    42
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026063,
+   "balls": [
+    36,
+    26,
+    37,
+    2,
+    44,
+    31
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026064,
+   "balls": [
+    8,
+    23,
+    40,
+    44,
+    34,
+    2
+   ],
+   "special": 18,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026065,
+   "balls": [
+    2,
+    45,
+    17,
+    38,
+    33,
+    24
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026066,
+   "balls": [
+    24,
+    20,
+    36,
+    44,
+    2,
+    28
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026067,
+   "balls": [
+    15,
+    30,
+    6,
+    1,
+    26,
+    9
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026068,
+   "balls": [
+    49,
+    2,
+    1,
+    26,
+    38,
+    21
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026069,
+   "balls": [
+    23,
+    16,
+    10,
+    34,
+    8,
+    36
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026070,
+   "balls": [
+    47,
+    17,
+    23,
+    10,
+    41,
+    7
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026071,
+   "balls": [
+    44,
+    30,
+    25,
+    5,
+    41,
+    8
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026072,
+   "balls": [
+    12,
+    28,
+    1,
+    42,
+    25,
+    44
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026073,
+   "balls": [
+    7,
+    29,
+    1,
+    33,
+    36,
+    14
+   ],
+   "special": 34,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026074,
+   "balls": [
+    12,
+    31,
+    49,
+    25,
+    24,
+    32
+   ],
+   "special": 10,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026075,
+   "balls": [
+    19,
+    22,
+    26,
+    20,
+    41,
+    27
+   ],
+   "special": 33,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026076,
+   "balls": [
+    12,
+    7,
+    24,
+    22,
+    3,
+    41
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026077,
+   "balls": [
+    37,
+    32,
+    46,
+    25,
+    39,
+    30
+   ],
+   "special": 29,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026078,
+   "balls": [
+    18,
+    17,
+    10,
+    33,
+    2,
+    8
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026079,
+   "balls": [
+    49,
+    34,
+    6,
+    20,
+    4,
+    43
+   ],
+   "special": 35,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026080,
+   "balls": [
+    21,
+    18,
+    17,
+    48,
+    9,
+    42
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026081,
+   "balls": [
+    4,
+    36,
+    14,
+    15,
+    35,
+    41
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026082,
+   "balls": [
+    3,
+    21,
+    33,
+    37,
+    41,
+    25
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026083,
+   "balls": [
+    46,
+    8,
+    23,
+    36,
+    30,
+    1
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026084,
+   "balls": [
+    7,
+    24,
+    2,
+    5,
+    20,
+    31
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026085,
+   "balls": [
+    14,
+    13,
+    27,
+    33,
+    6,
+    20
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026086,
+   "balls": [
+    15,
+    36,
+    14,
+    24,
+    26,
+    34
+   ],
+   "special": 12,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026087,
+   "balls": [
+    17,
+    1,
+    21,
+    29,
+    47,
+    2
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026088,
+   "balls": [
+    16,
+    46,
+    18,
+    10,
+    12,
+    42
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026089,
+   "balls": [
+    26,
+    44,
+    34,
+    5,
+    21,
+    22
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026090,
+   "balls": [
+    48,
+    29,
+    20,
+    17,
+    37,
+    8
+   ],
+   "special": 36,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026091,
+   "balls": [
+    8,
+    17,
+    32,
+    5,
+    42,
+    24
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026092,
+   "balls": [
+    46,
+    42,
+    25,
+    47,
+    38,
+    19
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026093,
+   "balls": [
+    13,
+    18,
+    26,
+    47,
+    48,
+    4
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026094,
+   "balls": [
+    16,
+    25,
+    4,
+    28,
+    43,
+    38
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026095,
+   "balls": [
+    15,
+    39,
+    1,
+    38,
+    21,
+    48
+   ],
+   "special": 35,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026096,
+   "balls": [
+    35,
+    37,
+    26,
+    5,
+    25,
+    15
+   ],
+   "special": 43,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026097,
+   "balls": [
+    28,
+    8,
+    44,
+    26,
+    29,
+    46
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026098,
+   "balls": [
+    24,
+    8,
+    3,
+    14,
+    32,
+    49
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026099,
+   "balls": [
+    10,
+    32,
+    22,
+    18,
+    28,
+    17
+   ],
+   "special": 12,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026100,
+   "balls": [
+    24,
+    45,
+    4,
+    32,
+    3,
+    48
+   ],
+   "special": 33,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026101,
+   "balls": [
+    22,
+    8,
+    2,
+    34,
+    20,
+    12
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026102,
+   "balls": [
+    47,
+    3,
+    32,
+    46,
+    39,
+    36
+   ],
+   "special": 20,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026103,
+   "balls": [
+    34,
+    3,
+    1,
+    30,
+    39,
+    4
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026104,
+   "balls": [
+    20,
+    45,
+    39,
+    49,
+    3,
+    48
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026105,
+   "balls": [
+    32,
+    44,
+    17,
+    19,
+    11,
+    36
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026106,
+   "balls": [
+    31,
+    48,
+    5,
+    11,
+    46,
+    40
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026107,
+   "balls": [
+    35,
+    10,
+    41,
+    43,
+    34,
+    6
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026108,
+   "balls": [
+    6,
+    30,
+    26,
+    14,
+    48,
+    40
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026109,
+   "balls": [
+    38,
+    7,
+    19,
+    24,
+    43,
+    8
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026110,
+   "balls": [
+    40,
+    3,
+    43,
+    29,
+    45,
+    19
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026111,
+   "balls": [
+    24,
+    23,
+    21,
+    41,
+    38,
+    33
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026112,
+   "balls": [
+    15,
+    19,
+    30,
+    7,
+    44,
+    10
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026113,
+   "balls": [
+    42,
+    22,
+    15,
+    17,
+    32,
+    49
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026114,
+   "balls": [
+    45,
+    41,
+    10,
+    1,
+    36,
+    25
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026115,
+   "balls": [
+    21,
+    16,
+    25,
+    29,
+    8,
+    7
+   ],
+   "special": 4,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026116,
+   "balls": [
+    15,
+    46,
+    16,
+    10,
+    48,
+    33
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026117,
+   "balls": [
+    45,
+    2,
+    46,
+    33,
+    19,
+    7
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026118,
+   "balls": [
+    38,
+    37,
+    22,
+    46,
+    49,
+    40
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026119,
+   "balls": [
+    38,
+    18,
+    32,
+    22,
+    30,
+    40
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026120,
+   "balls": [
+    18,
+    24,
+    7,
+    23,
+    48,
+    20
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026121,
+   "balls": [
+    45,
+    21,
+    35,
+    48,
+    6,
+    20
+   ],
+   "special": 44,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026122,
+   "balls": [
+    18,
+    23,
+    15,
+    22,
+    25,
+    45
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026123,
+   "balls": [
+    39,
+    23,
+    49,
+    17,
+    42,
+    44
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026124,
+   "balls": [
+    46,
+    5,
+    10,
+    17,
+    12,
+    22
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026125,
+   "balls": [
+    16,
+    19,
+    7,
+    30,
+    38,
+    39
+   ],
+   "special": 31,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026126,
+   "balls": [
+    15,
+    9,
+    5,
+    3,
+    1,
+    10
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026127,
+   "balls": [
+    14,
+    8,
+    27,
+    3,
+    7,
+    29
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026128,
+   "balls": [
+    25,
+    46,
+    2,
+    7,
+    45,
+    42
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026129,
+   "balls": [
+    34,
+    7,
+    40,
+    21,
+    17,
+    25
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026130,
+   "balls": [
+    41,
+    26,
+    9,
+    11,
+    5,
+    25
+   ],
+   "special": 29,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026131,
+   "balls": [
+    12,
+    40,
+    21,
+    32,
+    1,
+    25
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026132,
+   "balls": [
+    48,
+    11,
+    20,
+    44,
+    39,
+    35
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026133,
+   "balls": [
+    38,
+    14,
+    23,
+    1,
+    26,
+    44
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026134,
+   "balls": [
+    24,
+    46,
+    40,
+    44,
+    22,
+    49
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026135,
+   "balls": [
+    8,
+    35,
+    9,
+    20,
+    18,
+    47
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026136,
+   "balls": [
+    1,
+    14,
+    24,
+    17,
+    15,
+    12
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026137,
+   "balls": [
+    24,
+    20,
+    32,
+    5,
+    19,
+    7
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026138,
+   "balls": [
+    38,
+    22,
+    6,
+    24,
+    20,
+    46
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026139,
+   "balls": [
+    41,
+    45,
+    48,
+    1,
+    36,
+    30
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026140,
+   "balls": [
+    13,
+    10,
+    42,
+    4,
+    46,
+    34
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026141,
+   "balls": [
+    43,
+    8,
+    17,
+    2,
+    34,
+    32
+   ],
+   "special": 33,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026142,
+   "balls": [
+    45,
+    15,
+    26,
+    21,
+    18,
+    35
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026143,
+   "balls": [
+    13,
+    26,
+    18,
+    32,
+    2,
+    33
+   ],
+   "special": 44,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026144,
+   "balls": [
+    47,
+    31,
+    29,
+    33,
+    22,
+    26
+   ],
+   "special": 43,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026145,
+   "balls": [
+    36,
+    43,
+    25,
+    32,
+    37,
+    18
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026146,
+   "balls": [
+    11,
+    30,
+    20,
+    19,
+    5,
+    16
+   ],
+   "special": 42,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026147,
+   "balls": [
+    29,
+    40,
+    6,
+    18,
+    31,
+    10
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026148,
+   "balls": [
+    28,
+    24,
+    31,
+    23,
+    4,
+    27
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026149,
+   "balls": [
+    28,
+    30,
+    44,
+    45,
+    4,
+    20
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026150,
+   "balls": [
+    11,
+    4,
+    22,
+    25,
+    44,
+    19
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026151,
+   "balls": [
+    27,
+    15,
+    29,
+    42,
+    20,
+    41
+   ],
+   "special": 31,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026152,
+   "balls": [
+    34,
+    47,
+    16,
+    36,
+    44,
+    1
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026153,
+   "balls": [
+    1,
+    38,
+    33,
+    28,
+    6,
+    40
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026154,
+   "balls": [
+    46,
+    28,
+    42,
+    31,
+    23,
+    34
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026155,
+   "balls": [
+    21,
+    37,
+    46,
+    13,
+    40,
+    47
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026156,
+   "balls": [
+    31,
+    16,
+    11,
+    3,
+    37,
+    12
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026157,
+   "balls": [
+    43,
+    25,
+    11,
+    31,
+    17,
+    10
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026158,
+   "balls": [
+    43,
+    48,
+    3,
+    1,
+    12,
+    23
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026159,
+   "balls": [
+    12,
+    4,
+    28,
+    17,
+    20,
+    46
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026160,
+   "balls": [
+    8,
+    16,
+    26,
+    1,
+    29,
+    30
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026161,
+   "balls": [
+    36,
+    40,
+    42,
+    19,
+    34,
+    46
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026162,
+   "balls": [
+    23,
+    41,
+    24,
+    26,
+    33,
+    7
+   ],
+   "special": 32,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026163,
+   "balls": [
+    39,
+    8,
+    10,
+    33,
+    7,
+    41
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026164,
+   "balls": [
+    46,
+    4,
+    38,
+    12,
+    3,
+    2
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026165,
+   "balls": [
+    11,
+    47,
+    9,
+    49,
+    2,
+    1
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026166,
+   "balls": [
+    20,
+    15,
+    1,
+    4,
+    21,
+    28
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026167,
+   "balls": [
+    23,
+    3,
+    40,
+    39,
+    7,
+    11
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026168,
+   "balls": [
+    27,
+    11,
+    24,
+    5,
+    40,
+    33
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026169,
+   "balls": [
+    44,
+    37,
+    30,
+    8,
+    40,
+    22
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026170,
+   "balls": [
+    27,
+    46,
+    6,
+    38,
+    20,
+    34
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026171,
+   "balls": [
+    24,
+    38,
+    40,
+    31,
+    42,
+    46
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026172,
+   "balls": [
+    28,
+    34,
+    42,
+    37,
+    45,
+    8
+   ],
+   "special": 44,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026173,
+   "balls": [
+    39,
+    6,
+    16,
+    40,
+    13,
+    19
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026174,
+   "balls": [
+    15,
+    8,
+    34,
+    13,
+    28,
+    21
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026175,
+   "balls": [
+    7,
+    19,
+    25,
+    28,
+    29,
+    30
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026176,
+   "balls": [
+    30,
+    31,
+    2,
+    36,
+    38,
+    15
+   ],
+   "special": 10,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026177,
+   "balls": [
+    19,
+    21,
+    5,
+    1,
+    2,
+    44
+   ],
+   "special": 14,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026178,
+   "balls": [
+    26,
+    46,
+    22,
+    44,
+    31,
+    17
+   ],
+   "special": 18,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026179,
+   "balls": [
+    10,
+    11,
+    26,
+    6,
+    31,
+    9
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026180,
+   "balls": [
+    14,
+    10,
+    37,
+    30,
+    49,
+    19
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026181,
+   "balls": [
+    17,
+    29,
+    6,
+    34,
+    47,
+    15
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026182,
+   "balls": [
+    15,
+    23,
+    9,
+    45,
+    24,
+    39
+   ],
+   "special": 41,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026183,
+   "balls": [
+    23,
+    9,
+    46,
+    37,
+    42,
+    3
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026184,
+   "balls": [
+    44,
+    24,
+    11,
+    36,
+    25,
+    20
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026185,
+   "balls": [
+    18,
+    35,
+    9,
+    41,
+    12,
+    30
+   ],
+   "special": 36,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026186,
+   "balls": [
+    17,
+    29,
+    22,
+    1,
+    5,
+    38
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026187,
+   "balls": [
+    23,
+    12,
+    36,
+    38,
+    27,
+    22
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026188,
+   "balls": [
+    38,
+    5,
+    19,
+    10,
+    14,
+    1
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026189,
+   "balls": [
+    45,
+    12,
+    37,
+    20,
+    38,
+    43
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026190,
+   "balls": [
+    46,
+    14,
+    19,
+    37,
+    48,
+    29
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026191,
+   "balls": [
+    19,
+    43,
+    39,
+    24,
+    16,
+    26
+   ],
+   "special": 29,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026192,
+   "balls": [
+    27,
+    30,
+    45,
+    8,
+    1,
+    37
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026193,
+   "balls": [
+    2,
+    49,
+    25,
+    11,
+    45,
+    29
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026194,
+   "balls": [
+    30,
+    21,
+    22,
+    15,
+    4,
+    34
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026195,
+   "balls": [
+    46,
+    23,
+    39,
+    4,
+    9,
+    19
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026196,
+   "balls": [
+    3,
+    37,
+    24,
+    10,
+    41,
+    19
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026197,
+   "balls": [
+    40,
+    19,
+    30,
+    48,
+    44,
+    28
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026198,
+   "balls": [
+    48,
+    35,
+    45,
+    21,
+    12,
+    24
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026199,
+   "balls": [
+    17,
+    49,
+    42,
+    45,
+    5,
+    38
+   ],
+   "special": 36,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026200,
+   "balls": [
+    43,
+    46,
+    5,
+    32,
+    35,
+    29
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026201,
+   "balls": [
+    46,
+    28,
+    19,
+    38,
+    31,
+    25
+   ],
+   "special": 32,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026202,
+   "balls": [
+    21,
+    15,
+    25,
+    47,
+    13,
+    45
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026203,
+   "balls": [
+    12,
+    11,
+    31,
+    3,
+    44,
+    37
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026204,
+   "balls": [
+    11,
+    12,
+    17,
+    26,
+    10,
+    7
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026205,
+   "balls": [
+    30,
+    17,
+    39,
+    12,
+    11,
+    28
+   ],
+   "special": 3,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026206,
+   "balls": [
+    9,
+    49,
+    37,
+    3,
+    40,
+    35
+   ],
+   "special": 47,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026207,
+   "balls": [
+    9,
+    40,
+    26,
+    23,
+    44,
+    13
+   ],
+   "special": 31,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026208,
+   "balls": [
+    7,
+    48,
+    40,
+    35,
+    23,
+    28
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026209,
+   "balls": [
+    44,
+    5,
+    39,
+    14,
+    21,
+    22
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026210,
+   "balls": [
+    40,
+    37,
+    15,
+    17,
+    42,
+    48
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026211,
+   "balls": [
+    13,
+    12,
+    39,
+    37,
+    38,
+    8
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026212,
+   "balls": [
+    43,
+    32,
+    16,
+    39,
+    19,
+    27
+   ],
+   "special": 6,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026213,
+   "balls": [
+    9,
+    5,
+    12,
+    22,
+    1,
+    15
+   ],
+   "special": 35,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026214,
+   "balls": [
+    29,
+    30,
+    27,
+    38,
+    43,
+    31
+   ],
+   "special": 4,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026215,
+   "balls": [
+    19,
+    38,
+    30,
+    13,
+    1,
+    11
+   ],
+   "special": 14,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026216,
+   "balls": [
+    18,
+    41,
+    32,
+    44,
+    36,
+    45
+   ],
+   "special": 37,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026217,
+   "balls": [
+    34,
+    12,
+    11,
+    30,
+    42,
+    7
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026218,
+   "balls": [
+    2,
+    13,
+    47,
+    38,
+    46,
+    23
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026219,
+   "balls": [
+    31,
+    41,
+    7,
+    8,
+    29,
+    22
+   ],
+   "special": 43,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026220,
+   "balls": [
+    27,
+    39,
+    4,
+    12,
+    38,
+    25
+   ],
+   "special": 48,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026221,
+   "balls": [
+    24,
+    14,
+    18,
+    48,
+    46,
+    28
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026222,
+   "balls": [
+    49,
+    14,
+    47,
+    27,
+    18,
+    38
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026223,
+   "balls": [
+    21,
+    43,
+    1,
+    38,
+    29,
+    44
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026224,
+   "balls": [
+    25,
+    19,
+    8,
+    49,
+    18,
+    36
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026225,
+   "balls": [
+    7,
+    34,
+    27,
+    10,
+    19,
+    38
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026226,
+   "balls": [
+    1,
+    11,
+    29,
+    38,
+    4,
+    33
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026227,
+   "balls": [
+    23,
+    24,
+    29,
+    7,
+    13,
+    31
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026228,
+   "balls": [
+    38,
+    26,
+    8,
+    6,
+    29,
+    18
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026229,
+   "balls": [
+    11,
+    7,
+    15,
+    13,
+    33,
+    16
+   ],
+   "special": 38,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026230,
+   "balls": [
+    28,
+    26,
+    47,
+    14,
+    49,
+    10
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026231,
+   "balls": [
+    39,
+    46,
+    23,
+    11,
+    8,
+    13
+   ],
+   "special": 20,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026232,
+   "balls": [
+    29,
+    10,
+    17,
+    4,
+    46,
+    20
+   ],
+   "special": 42,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026233,
+   "balls": [
+    18,
+    41,
+    5,
+    49,
+    4,
+    34
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026234,
+   "balls": [
+    25,
+    30,
+    37,
+    19,
+    7,
+    17
+   ],
+   "special": 39,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026235,
+   "balls": [
+    27,
+    26,
+    35,
+    17,
+    44,
+    21
+   ],
+   "special": 32,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026236,
+   "balls": [
+    26,
+    35,
+    42,
+    9,
+    14,
+    17
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026237,
+   "balls": [
+    47,
+    36,
+    14,
+    6,
+    41,
+    25
+   ],
+   "special": 12,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026238,
+   "balls": [
+    35,
+    44,
+    23,
+    4,
+    7,
+    21
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026239,
+   "balls": [
+    47,
+    43,
+    34,
+    17,
+    22,
+    7
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026240,
+   "balls": [
+    2,
+    34,
+    22,
+    26,
+    28,
+    37
+   ],
+   "special": 27,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026241,
+   "balls": [
+    29,
+    45,
+    27,
+    21,
+    42,
+    41
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026242,
+   "balls": [
+    29,
+    35,
+    46,
+    32,
+    13,
+    31
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026243,
+   "balls": [
+    42,
+    17,
+    12,
+    46,
+    9,
+    24
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026244,
+   "balls": [
+    9,
+    14,
+    3,
+    17,
+    33,
+    40
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026245,
+   "balls": [
+    22,
+    23,
+    14,
+    2,
+    13,
+    38
+   ],
+   "special": 18,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026246,
+   "balls": [
+    22,
+    24,
+    19,
+    10,
+    20,
+    1
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026247,
+   "balls": [
+    3,
+    9,
+    43,
+    29,
+    46,
+    4
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026248,
+   "balls": [
+    43,
+    26,
+    49,
+    39,
+    14,
+    27
+   ],
+   "special": 20,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026249,
+   "balls": [
+    41,
+    22,
+    13,
+    36,
+    26,
+    29
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026250,
+   "balls": [
+    10,
+    6,
+    39,
+    47,
+    37,
+    17
+   ],
+   "special": 14,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026251,
+   "balls": [
+    9,
+    6,
+    11,
+    25,
+    8,
+    45
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026252,
+   "balls": [
+    33,
+    41,
+    43,
+    13,
+    6,
+    48
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026253,
+   "balls": [
+    5,
+    35,
+    15,
+    28,
+    13,
+    49
+   ],
+   "special": 16,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026254,
+   "balls": [
+    26,
+    44,
+    35,
+    6,
+    16,
+    10
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026255,
+   "balls": [
+    36,
+    22,
+    6,
+    47,
+    39,
+    11
+   ],
+   "special": 44,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026256,
+   "balls": [
+    40,
+    15,
+    9,
+    37,
+    7,
+    3
+   ],
+   "special": 1,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026257,
+   "balls": [
+    8,
+    46,
+    47,
+    39,
+    27,
+    45
+   ],
+   "special": 7,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026258,
+   "balls": [
+    3,
+    23,
+    21,
+    35,
+    5,
+    19
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026259,
+   "balls": [
+    43,
+    33,
+    49,
+    36,
+    19,
+    30
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026260,
+   "balls": [
+    25,
+    26,
+    44,
+    32,
+    6,
+    48
+   ],
+   "special": 20,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026261,
+   "balls": [
+    6,
+    25,
+    43,
+    46,
+    29,
+    47
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026262,
+   "balls": [
+    38,
+    22,
+    33,
+    47,
+    36,
+    7
+   ],
+   "special": 30,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026263,
+   "balls": [
+    44,
+    28,
+    3,
+    2,
+    24,
+    13
+   ],
+   "special": 9,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026264,
+   "balls": [
+    10,
+    6,
+    8,
+    31,
+    22,
+    24
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026265,
+   "balls": [
+    5,
+    46,
+    40,
+    23,
+    26,
+    44
+   ],
+   "special": 49,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026266,
+   "balls": [
+    38,
+    42,
+    37,
+    29,
+    45,
+    18
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026267,
+   "balls": [
+    16,
+    20,
+    25,
+    22,
+    9,
+    41
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026268,
+   "balls": [
+    48,
+    34,
+    11,
+    21,
+    19,
+    36
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026269,
+   "balls": [
+    19,
+    40,
+    36,
+    5,
+    38,
+    16
+   ],
+   "special": 22,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026270,
+   "balls": [
+    39,
+    34,
+    20,
+    24,
+    17,
+    6
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026271,
+   "balls": [
+    25,
+    2,
+    5,
+    22,
+    20,
+    31
+   ],
+   "special": 35,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026272,
+   "balls": [
+    43,
+    15,
+    4,
+    6,
+    32,
+    36
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026273,
+   "balls": [
+    30,
+    3,
+    25,
+    28,
+    6,
+    17
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026274,
+   "balls": [
+    12,
+    16,
+    32,
+    5,
+    39,
+    36
+   ],
+   "special": 33,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026275,
+   "balls": [
+    42,
+    49,
+    4,
+    47,
+    14,
+    43
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026276,
+   "balls": [
+    2,
+    21,
+    17,
+    40,
+    11,
+    24
+   ],
+   "special": 14,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026277,
+   "balls": [
+    41,
+    23,
+    14,
+    31,
+    13,
+    32
+   ],
+   "special": 11,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026278,
+   "balls": [
+    6,
+    40,
+    24,
+    29,
+    44,
+    1
+   ],
+   "special": 2,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026279,
+   "balls": [
+    29,
+    32,
+    47,
+    38,
+    6,
+    26
+   ],
+   "special": 10,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026280,
+   "balls": [
+    1,
+    26,
+    28,
+    29,
+    3,
+    5
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026281,
+   "balls": [
+    22,
+    19,
+    21,
+    32,
+    48,
+    38
+   ],
+   "special": 10,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026282,
+   "balls": [
+    44,
+    3,
+    37,
+    46,
+    29,
+    20
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026283,
+   "balls": [
+    35,
+    8,
+    15,
+    6,
+    21,
+    1
+   ],
+   "special": 18,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026284,
+   "balls": [
+    4,
+    35,
+    22,
+    48,
+    3,
+    18
+   ],
+   "special": 32,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026285,
+   "balls": [
+    46,
+    45,
+    43,
+    39,
+    20,
+    40
+   ],
+   "special": 19,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026286,
+   "balls": [
+    37,
+    49,
+    28,
+    8,
+    29,
+    1
+   ],
+   "special": 24,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026287,
+   "balls": [
+    19,
+    47,
+    38,
+    35,
+    6,
+    17
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026288,
+   "balls": [
+    14,
+    48,
+    5,
+    17,
+    46,
+    21
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026289,
+   "balls": [
+    12,
+    29,
+    19,
+    28,
+    47,
+    34
+   ],
+   "special": 38,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026290,
+   "balls": [
+    8,
+    9,
+    17,
+    15,
+    7,
+    2
+   ],
+   "special": 40,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026291,
+   "balls": [
+    32,
+    10,
+    41,
+    38,
+    22,
+    2
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026292,
+   "balls": [
+    39,
+    10,
+    18,
+    23,
+    16,
+    4
+   ],
+   "special": 36,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026293,
+   "balls": [
+    38,
+    10,
+    48,
+    49,
+    13,
+    9
+   ],
+   "special": 5,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026294,
+   "balls": [
+    29,
+    43,
+    10,
+    2,
+    34,
+    27
+   ],
+   "special": 28,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026295,
+   "balls": [
+    22,
+    28,
+    33,
+    17,
+    13,
+    47
+   ],
+   "special": 25,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026296,
+   "balls": [
+    14,
+    43,
+    26,
+    45,
+    3,
+    31
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026297,
+   "balls": [
+    27,
+    40,
+    25,
+    26,
+    33,
+    9
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026298,
+   "balls": [
+    31,
+    36,
+    40,
+    34,
+    37,
+    43
+   ],
+   "special": 8,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026299,
+   "balls": [
+    12,
+    19,
+    28,
+    32,
+    5,
+    42
+   ],
+   "special": 23,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026300,
+   "balls": [
+    1,
+    29,
+    23,
+    17,
+    18,
+    42
+   ],
+   "special": 38,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026301,
+   "balls": [
+    27,
+    41,
+    23,
+    11,
+    2,
+    43
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026302,
+   "balls": [
+    10,
+    2,
+    14,
+    13,
+    11,
+    12
+   ],
+   "special": 45,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026303,
+   "balls": [
+    8,
+    28,
+    40,
+    3,
+    38,
+    49
+   ],
+   "special": 17,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026304,
+   "balls": [
+    23,
+    24,
+    10,
+    43,
+    13,
+    36
+   ],
+   "special": 21,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026305,
+   "balls": [
+    31,
+    49,
+    29,
+    44,
+    18,
+    40
+   ],
+   "special": 26,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026306,
+   "balls": [
+    39,
+    13,
+    28,
+    9,
+    14,
+    32
+   ],
+   "special": 15,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026307,
+   "balls": [
+    48,
+    38,
+    49,
+    9,
+    13,
+    3
+   ],
+   "special": 42,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026308,
+   "balls": [
+    25,
+    16,
+    28,
+    8,
+    6,
+    40
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026309,
+   "balls": [
+    34,
+    39,
+    18,
+    46,
+    4,
+    38
+   ],
+   "special": 13,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026310,
+   "balls": [
+    37,
+    11,
+    34,
+    2,
+    40,
+    44
+   ],
+   "special": 46,
+   "recorded_at": "",
+   "source": "import-311"
+  },
+  {
+   "period": 2026311,
+   "balls": [
+    32,
+    40,
+    49,
+    14,
+    19,
+    16
+   ],
+   "special": 34,
+   "recorded_at": "",
+   "source": "import-311"
+  }
+ ]
+}
