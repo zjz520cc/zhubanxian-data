@@ -22,9 +22,9 @@
   "updated_at": "2026-11-08T02:40:00+08:00",
   "status": "ok" | "partial" | "error",
   "source": "A" | "B" | "none",
-  "latest": 311,
-  "count": 63,
-  "draws": [{"period": 311, "balls": [32,40,49,14,19,16], "special": 34, "recorded_at": "...", "source": "A"}]
+  "latest": 2026311,
+  "count": 311,
+  "draws": [{"period": 2026311, "balls": [32,40,49,14,19,16], "special": 34, "recorded_at": "...", "source": "A"}]
 }
 
 用法：
@@ -55,6 +55,19 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 UNIVERSE = 49
 MAX_RETRY = 2
 SCHEMA = "promax.cloud_draws/1"
+
+
+def full_period(tail, year=None):
+    """期号统一为 7 位纯数字：尾巴 311 + 年份 2026 -> 2026311。
+
+    已经是 7 位（>= 1000000）时原样返回，避免重复拼接。
+    年份优先取数据源自带的年份，缺失时取当前北京时间年份。
+    """
+    p = int(tail)
+    if p >= 1000000:
+        return p
+    y = int(year) if year else datetime.now(CST).year
+    return y * 1000 + p
 
 
 def now_iso():
@@ -98,10 +111,11 @@ TITLE_RE = re.compile(
     r"第\s*(\d+)\s*期\s*(\d{4})/(\d{1,2})/(\d{1,2})\s*(\d{1,2}):(\d{2})")
 
 
-def draw_time_from_title(title, period):
+def draw_time_from_title(title, period, year=None):
     """源 A 的 title 形如「第312期 2026/11/08 21:30 星期日」。
 
     title 声明的是下一期时，本期开奖日 = 该日期前 1 天；声明的是本期时直接采用。
+    期号按 7 位的尾三位比较，跨年（999 -> 001）同样成立。
     解析不出或期号对不上则返回 None（调用方回落为抓取时间，不做猜测）。
     """
     m = TITLE_RE.search(title or "")
@@ -113,9 +127,10 @@ def draw_time_from_title(title, period):
         stamp = datetime(int(year), int(month), int(day), int(hour), int(minute), tzinfo=CST)
     except ValueError:
         return None
-    if declared == period + 1:
+    tail = int(period) % 1000
+    if declared == (tail % 999) + 1:
         return (stamp - timedelta(days=1)).replace(microsecond=0).isoformat()
-    if declared == period:
+    if declared == tail:
         return stamp.replace(microsecond=0).isoformat()
     return None
 
@@ -125,8 +140,8 @@ def normalize(period, balls, special, source, recorded_at=None):
     period = int(period)
     balls = [int(b) for b in balls]
     special = int(special)
-    if period <= 0:
-        raise ValueError("期号非法：%r" % period)
+    if period < 1000000:
+        raise ValueError("期号必须为 7 位纯数字（如 2026311）：%r" % period)
     if len(balls) != 6:
         raise ValueError("平码数量应为 6，实际 %d" % len(balls))
     pool = balls + [special]
@@ -148,12 +163,14 @@ def fetch_a():
     if str(doc.get("status")) != "0":
         raise ValueError("源 A 状态异常：status=%r info=%r" % (doc.get("status"), doc.get("info")))
     data = doc.get("data") or {}
-    period = data.get("period")
+    raw_period = data.get("period")
+    year = data.get("year")
     rows = data.get("numberList") or []
     nums = [int(r.get("number")) for r in rows if r.get("number") is not None]
-    if period is None or len(nums) != 7:
-        raise ValueError("源 A 结构不符：period=%r 号码数=%d" % (period, len(nums)))
-    stamp = draw_time_from_title(data.get("title"), int(period))
+    if raw_period is None or len(nums) != 7:
+        raise ValueError("源 A 结构不符：period=%r 号码数=%d" % (raw_period, len(nums)))
+    period = full_period(raw_period, year)
+    stamp = draw_time_from_title(data.get("title"), period, year)
     return normalize(period, nums[:6], nums[6], "A", stamp)
 
 
@@ -173,7 +190,7 @@ def parse_b_html(html):
         if not m:
             continue
         raw_period = int(m.group(1))
-        period = raw_period % 1000 if raw_period > 999 else raw_period
+        period = full_period(raw_period)
         body = chunk[chunk.find("kj-detailss"):]
         head, sep, tail = body.partition("jiahaos")
         balls = [int(x) for x in NUM_RE.findall(head)]
