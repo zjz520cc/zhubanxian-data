@@ -1,11 +1,879 @@
 {
  "schema": "promax.cloud_draws/1",
- "updated_at": "2026-11-08T03:14:44+08:00",
- "status": "ok",
+ "updated_at": "2026-11-08T02:40:46+08:00",
+ "status": "no-new",
  "source": "A",
  "latest": 311,
- "count": 1,
+ "count": 63,
  "draws": [
+  {
+   "period": 249,
+   "balls": [
+    41,
+    22,
+    13,
+    36,
+    26,
+    29
+   ],
+   "special": 23,
+   "recorded_at": "2026-09-09T18:24:26.85487+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 250,
+   "balls": [
+    10,
+    6,
+    39,
+    47,
+    37,
+    17
+   ],
+   "special": 14,
+   "recorded_at": "2026-09-09T18:24:39.08194+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 251,
+   "balls": [
+    9,
+    6,
+    11,
+    25,
+    8,
+    45
+   ],
+   "special": 30,
+   "recorded_at": "2026-09-09T18:24:51.541882+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 252,
+   "balls": [
+    33,
+    41,
+    43,
+    13,
+    6,
+    48
+   ],
+   "special": 22,
+   "recorded_at": "2026-09-09T18:25:02.477112+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 253,
+   "balls": [
+    5,
+    35,
+    15,
+    28,
+    13,
+    49
+   ],
+   "special": 16,
+   "recorded_at": "2026-09-10T13:45:48.743331+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 254,
+   "balls": [
+    26,
+    44,
+    35,
+    6,
+    16,
+    10
+   ],
+   "special": 2,
+   "recorded_at": "2026-09-11T13:58:16.958023+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 255,
+   "balls": [
+    36,
+    22,
+    6,
+    47,
+    39,
+    11
+   ],
+   "special": 44,
+   "recorded_at": "2026-09-12T15:11:59.714452+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 256,
+   "balls": [
+    40,
+    15,
+    9,
+    37,
+    7,
+    3
+   ],
+   "special": 1,
+   "recorded_at": "2026-09-13T13:41:03.31567+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 257,
+   "balls": [
+    8,
+    46,
+    47,
+    39,
+    27,
+    45
+   ],
+   "special": 7,
+   "recorded_at": "2026-09-14T13:48:05.160966+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 258,
+   "balls": [
+    3,
+    23,
+    21,
+    35,
+    5,
+    19
+   ],
+   "special": 46,
+   "recorded_at": "2026-09-15T13:38:33.438898+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 259,
+   "balls": [
+    43,
+    33,
+    49,
+    36,
+    19,
+    30
+   ],
+   "special": 22,
+   "recorded_at": "2026-09-16T13:41:19.997433+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 260,
+   "balls": [
+    25,
+    26,
+    44,
+    32,
+    6,
+    48
+   ],
+   "special": 20,
+   "recorded_at": "2026-09-17T13:36:08.895424+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 261,
+   "balls": [
+    6,
+    25,
+    43,
+    46,
+    29,
+    47
+   ],
+   "special": 24,
+   "recorded_at": "2026-09-18T13:36:37.983485+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 262,
+   "balls": [
+    38,
+    22,
+    33,
+    47,
+    36,
+    7
+   ],
+   "special": 30,
+   "recorded_at": "2026-09-19T13:35:32.489241+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 263,
+   "balls": [
+    44,
+    28,
+    3,
+    2,
+    24,
+    13
+   ],
+   "special": 9,
+   "recorded_at": "2026-09-20T13:34:55.979227+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 264,
+   "balls": [
+    10,
+    6,
+    8,
+    31,
+    22,
+    24
+   ],
+   "special": 21,
+   "recorded_at": "2026-09-21T13:35:37.683449+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 265,
+   "balls": [
+    5,
+    46,
+    40,
+    23,
+    26,
+    44
+   ],
+   "special": 49,
+   "recorded_at": "2026-09-22T13:37:02.876675+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 266,
+   "balls": [
+    38,
+    42,
+    37,
+    29,
+    45,
+    18
+   ],
+   "special": 8,
+   "recorded_at": "2026-09-23T13:34:55.011025+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 267,
+   "balls": [
+    16,
+    20,
+    25,
+    22,
+    9,
+    41
+   ],
+   "special": 40,
+   "recorded_at": "2026-09-24T13:39:24.259188+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 268,
+   "balls": [
+    48,
+    34,
+    11,
+    21,
+    19,
+    36
+   ],
+   "special": 40,
+   "recorded_at": "2026-09-25T13:40:01.735783+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 269,
+   "balls": [
+    19,
+    40,
+    36,
+    5,
+    38,
+    16
+   ],
+   "special": 22,
+   "recorded_at": "2026-09-26T13:42:46.937957+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 270,
+   "balls": [
+    39,
+    34,
+    20,
+    24,
+    17,
+    6
+   ],
+   "special": 19,
+   "recorded_at": "2026-09-27T13:41:30.158146+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 271,
+   "balls": [
+    25,
+    2,
+    5,
+    22,
+    20,
+    31
+   ],
+   "special": 35,
+   "recorded_at": "2026-09-28T13:38:36.681194+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 272,
+   "balls": [
+    43,
+    15,
+    4,
+    6,
+    32,
+    36
+   ],
+   "special": 2,
+   "recorded_at": "2026-09-29T13:53:52.096762+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 273,
+   "balls": [
+    30,
+    3,
+    25,
+    28,
+    6,
+    17
+   ],
+   "special": 5,
+   "recorded_at": "2026-09-30T13:35:55.143502+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 274,
+   "balls": [
+    12,
+    16,
+    32,
+    5,
+    39,
+    36
+   ],
+   "special": 33,
+   "recorded_at": "2026-10-01T14:11:22.573523+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 275,
+   "balls": [
+    42,
+    49,
+    4,
+    47,
+    14,
+    43
+   ],
+   "special": 17,
+   "recorded_at": "2026-10-02T13:39:18.494547+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 276,
+   "balls": [
+    2,
+    21,
+    17,
+    40,
+    11,
+    24
+   ],
+   "special": 14,
+   "recorded_at": "2026-10-03T13:35:01.60813+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 277,
+   "balls": [
+    41,
+    23,
+    14,
+    31,
+    13,
+    32
+   ],
+   "special": 11,
+   "recorded_at": "2026-10-04T13:35:03.296639+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 278,
+   "balls": [
+    6,
+    40,
+    24,
+    29,
+    44,
+    1
+   ],
+   "special": 2,
+   "recorded_at": "2026-10-05T13:35:02.224955+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 279,
+   "balls": [
+    29,
+    32,
+    47,
+    38,
+    6,
+    26
+   ],
+   "special": 10,
+   "recorded_at": "2026-10-06T13:35:03.117079+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 280,
+   "balls": [
+    1,
+    26,
+    28,
+    29,
+    3,
+    5
+   ],
+   "special": 15,
+   "recorded_at": "2026-10-07T13:35:02.509939+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 281,
+   "balls": [
+    22,
+    19,
+    21,
+    32,
+    48,
+    38
+   ],
+   "special": 10,
+   "recorded_at": "2026-10-08T13:35:03.714483+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 282,
+   "balls": [
+    44,
+    3,
+    37,
+    46,
+    29,
+    20
+   ],
+   "special": 23,
+   "recorded_at": "2026-10-09T13:35:01.780986+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 283,
+   "balls": [
+    35,
+    8,
+    15,
+    6,
+    21,
+    1
+   ],
+   "special": 18,
+   "recorded_at": "2026-10-10T13:35:01.195516+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 284,
+   "balls": [
+    4,
+    35,
+    22,
+    48,
+    3,
+    18
+   ],
+   "special": 32,
+   "recorded_at": "2026-10-11T13:35:01.395674+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 285,
+   "balls": [
+    46,
+    45,
+    43,
+    39,
+    20,
+    40
+   ],
+   "special": 19,
+   "recorded_at": "2026-10-12T13:35:01.155502+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 286,
+   "balls": [
+    37,
+    49,
+    28,
+    8,
+    29,
+    1
+   ],
+   "special": 24,
+   "recorded_at": "2026-10-13T13:35:01.290741+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 287,
+   "balls": [
+    19,
+    47,
+    38,
+    35,
+    6,
+    17
+   ],
+   "special": 8,
+   "recorded_at": "2026-10-14T13:35:01.563572+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 288,
+   "balls": [
+    14,
+    48,
+    5,
+    17,
+    46,
+    21
+   ],
+   "special": 25,
+   "recorded_at": "2026-10-15T13:35:01.726248+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 289,
+   "balls": [
+    12,
+    29,
+    19,
+    28,
+    47,
+    34
+   ],
+   "special": 38,
+   "recorded_at": "2026-10-16T13:35:01.512204+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 290,
+   "balls": [
+    8,
+    9,
+    17,
+    15,
+    7,
+    2
+   ],
+   "special": 40,
+   "recorded_at": "2026-10-17T13:35:01.476806+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 291,
+   "balls": [
+    32,
+    10,
+    41,
+    38,
+    22,
+    2
+   ],
+   "special": 17,
+   "recorded_at": "2026-10-18T13:35:01.592282+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 292,
+   "balls": [
+    39,
+    10,
+    18,
+    23,
+    16,
+    4
+   ],
+   "special": 36,
+   "recorded_at": "2026-10-19T13:35:01.290691+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 293,
+   "balls": [
+    38,
+    10,
+    48,
+    49,
+    13,
+    9
+   ],
+   "special": 5,
+   "recorded_at": "2026-10-20T13:35:01.273243+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 294,
+   "balls": [
+    29,
+    43,
+    10,
+    2,
+    34,
+    27
+   ],
+   "special": 28,
+   "recorded_at": "2026-10-21T13:35:04.149968+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 295,
+   "balls": [
+    22,
+    28,
+    33,
+    17,
+    13,
+    47
+   ],
+   "special": 25,
+   "recorded_at": "2026-10-22T13:35:04.698933+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 296,
+   "balls": [
+    14,
+    43,
+    26,
+    45,
+    3,
+    31
+   ],
+   "special": 23,
+   "recorded_at": "2026-10-23T13:35:03.318451+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 297,
+   "balls": [
+    27,
+    40,
+    25,
+    26,
+    33,
+    9
+   ],
+   "special": 13,
+   "recorded_at": "2026-10-24T13:35:03.356184+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 298,
+   "balls": [
+    31,
+    36,
+    40,
+    34,
+    37,
+    43
+   ],
+   "special": 8,
+   "recorded_at": "2026-10-25T13:35:03.638498+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 299,
+   "balls": [
+    12,
+    19,
+    28,
+    32,
+    5,
+    42
+   ],
+   "special": 23,
+   "recorded_at": "2026-10-26T13:35:01.322929+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 300,
+   "balls": [
+    1,
+    29,
+    23,
+    17,
+    18,
+    42
+   ],
+   "special": 38,
+   "recorded_at": "2026-10-27T13:35:01.437379+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 301,
+   "balls": [
+    27,
+    41,
+    23,
+    11,
+    2,
+    43
+   ],
+   "special": 17,
+   "recorded_at": "2026-10-28T13:35:05.346511+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 302,
+   "balls": [
+    10,
+    2,
+    14,
+    13,
+    11,
+    12
+   ],
+   "special": 45,
+   "recorded_at": "2026-10-29T13:35:03.39053+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 303,
+   "balls": [
+    8,
+    28,
+    40,
+    3,
+    38,
+    49
+   ],
+   "special": 17,
+   "recorded_at": "2026-10-30T13:35:04.492333+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 304,
+   "balls": [
+    23,
+    24,
+    10,
+    43,
+    13,
+    36
+   ],
+   "special": 21,
+   "recorded_at": "2026-10-31T13:35:01.297363+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 305,
+   "balls": [
+    31,
+    49,
+    29,
+    44,
+    18,
+    40
+   ],
+   "special": 26,
+   "recorded_at": "2026-11-01T13:35:03.40653+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 306,
+   "balls": [
+    39,
+    13,
+    28,
+    9,
+    14,
+    32
+   ],
+   "special": 15,
+   "recorded_at": "2026-11-02T13:35:01.451493+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 307,
+   "balls": [
+    48,
+    38,
+    49,
+    9,
+    13,
+    3
+   ],
+   "special": 42,
+   "recorded_at": "2026-11-03T13:35:01.335055+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 308,
+   "balls": [
+    25,
+    16,
+    28,
+    8,
+    6,
+    40
+   ],
+   "special": 46,
+   "recorded_at": "2026-11-05T05:11:34.950463+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 309,
+   "balls": [
+    34,
+    39,
+    18,
+    46,
+    4,
+    38
+   ],
+   "special": 13,
+   "recorded_at": "2026-11-05T13:35:02.72376+00:00",
+   "source": "snapshot"
+  },
+  {
+   "period": 310,
+   "balls": [
+    37,
+    11,
+    34,
+    2,
+    40,
+    44
+   ],
+   "special": 46,
+   "recorded_at": "2026-11-06T13:35:01.389278+00:00",
+   "source": "snapshot"
+  },
   {
    "period": 311,
    "balls": [
