@@ -18,7 +18,7 @@
 
 输出 standard JSON（前端只读这个文件，不做任何抓取）：
 {
-  "schema": "promax.cloud_draws/1",
+  "schema": "promax.draws/1",
   "updated_at": "2026-11-08T02:40:00+08:00",
   "status": "ok" | "partial" | "error",
   "source": "A" | "B" | "none",
@@ -28,8 +28,8 @@
 }
 
 用法：
-  python scrape_draws.py                        # 抓最新一期，合并进 ./cloud_draws.json
-  python scrape_draws.py --out cloud_draws.json # 指定输出
+  python scrape_draws.py                        # 抓最新一期，合并进 ./promax_draws.json
+  python scrape_draws.py --out promax_draws.json # 指定输出
   python scrape_draws.py --backfill 50          # 顺带从源 B 的 120 期页补最多 50 期缺失
   python scrape_draws.py --source b             # 强制走源 B（自检降级通道用）
   python scrape_draws.py --print                # 只打印不落盘
@@ -54,7 +54,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 UNIVERSE = 49
 MAX_RETRY = 2
-SCHEMA = "promax.cloud_draws/1"
+SCHEMA = "promax.draws/1"    # 只写开奖文件；字典 / 生肖 / 公式三文件由前端按 updated_at 缓存，脚本绝不触碰
 
 
 def full_period(tail, year=None):
@@ -293,7 +293,7 @@ def write_output(path, store, status, source):
 
 def main():
     ap = argparse.ArgumentParser(description="猪半仙 ProMax 开奖抓取器")
-    ap.add_argument("--out", default="cloud_draws.json")
+    ap.add_argument("--out", default="promax_draws.json")
     ap.add_argument("--seed", default=os.environ.get("PROMAX_SEED_URL", ""),
                     help="空库时先拉取的云端现值 URL（避免把完整历史覆盖成单期）")
     ap.add_argument("--backfill", type=int, default=0, help="从源 B 的 120 期页补最多 N 期缺失")
