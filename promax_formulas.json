@@ -1,1519 +1,1325 @@
-{
- "schema": "promax.formulas/1",
- "updated_at": "2026-11-08T04:49:25+08:00",
- "count": 189,
- "formulas": [
-  {
-   "id": "preset_dingshi_3",
-   "name": "四象推波•定波",
-   "expression": "平四+平三+平二+特码+01，四象推衍杀极寒半波，守主次五半波大盘",
-   "type": "bose",
-   "dimension_name": "波色",
-   "historical_win_rate_pct": 91.7
-  },
-  {
-   "id": "preset_bose_liuhuan_dingji",
-   "name": "六环归化•定半波",
-   "expression": "（平三头 + 总数尾 + 特合尾 + 五合尾 + 二合尾 + 1）六环归化",
-   "type": "bose",
-   "dimension_name": "波色/半波",
-   "historical_win_rate_pct": null
-  },
-  {
-   "id": "preset_bose_wuxing_guiyuan_sha",
-   "name": "五行归元•杀半波",
-   "expression": "平5*4 + 1",
-   "type": "bose",
-   "dimension_name": "波色/半波",
-   "historical_win_rate_pct": 90.51
-  },
-  {
-   "id": "preset_bose_liuhe_tongxuan_sha",
-   "name": "六合通玄•杀半波",
-   "expression": "平1 + 平3*2 + 平5 + 4",
-   "type": "bose",
-   "dimension_name": "波色/半波",
-   "historical_win_rate_pct": 91.3
-  },
-  {
-   "id": "preset_bose_d4_nil6_sha",
-   "name": "纯阳•杀波",
-   "expression": "D平4 + 逆L平6 + 2",
-   "type": "bose",
-   "dimension_name": "波色/半波",
-   "historical_win_rate_pct": 91.7
-  },
-  {
-   "id": "preset_new_fission_half_bose",
-   "name": "波合双化•杀半波",
-   "expression": "平2波*2 + 平5合尾 + 1",
-   "type": "bose",
-   "dimension_name": "波色/半波",
-   "historical_win_rate_pct": 91.6
-  },
-  {
-   "id": "preset_cross_half_bose_sha_34",
-   "name": "紫气东来•跨期绝半波",
-   "expression": "(A期D2 + 2* C期特头 + 1) % 6",
-   "type": "bose",
-   "dimension_name": "波色",
-   "historical_win_rate_pct": 91.24
-  },
-  {
-   "id": "preset_cross_half_bose_sha_35",
-   "name": "玄丹吐曜•跨期斩半波",
-   "expression": "(A期L4 + B期D2 + 2) % 6",
-   "type": "bose",
-   "dimension_name": "波色",
-   "historical_win_rate_pct": 91.24
-  },
-  {
-   "id": "preset_cross_half_bose_sha_33",
-   "name": "洞虚三昧•跨期杀半波",
-   "expression": "(A期特合尾 + 2* C期L2 + 1) % 6",
-   "type": "bose",
-   "dimension_name": "波色",
-   "historical_win_rate_pct": 91.63
-  },
-  {
-   "id": "preset_dingshi_jiuzhuan_6wei",
-   "name": "九转金丹•双期六尾",
-   "expression": "平2头 + 平4头 + 平5合尾 + 特码尾 + 4",
-   "type": "dingshi",
-   "dimension_name": "定式",
-   "historical_win_rate_pct": 88.66
-  },
-  {
-   "id": "preset_dingshi_sansan_6wei",
-   "name": "三三来野•双期六尾",
-   "expression": "(五平 + 8) 模10取尾，顺逆展开定六吉尾，预测未来2期",
-   "type": "dingshi",
-   "dimension_name": "定式",
-   "historical_win_rate_pct": 90.48
-  },
-  {
-   "id": "preset_dingshi_sansan",
-   "name": "三三来野•双期八肖",
-   "expression": "(特肖位+期数尾+2)，定肖，-012345，+34",
-   "type": "dingshi",
-   "dimension_name": "定式",
-   "historical_win_rate_pct": null
-  },
+[
   {
-   "id": "preset_dingshi_zifu_8xiao",
-   "name": "紫府元君•双期八肖",
-   "expression": "(首平码 + 4) 居中对称定八吉肖，预测未来2期",
-   "type": "dingshi",
-   "dimension_name": "定式",
-   "historical_win_rate_pct": 93.25
+    "id": "preset_dingshi_3",
+    "name": "四象推波•定波",
+    "expression": "平四+平三+平二+特码+01，四象推衍杀极寒半波，守主次五半波大盘",
+    "type": "bose",
+    "win_rate": 91.7
   },
   {
-   "id": "preset_dingshi_jiuzhuan_8wei",
-   "name": "九转金丹•双期八尾",
-   "expression": "平2头 + 平4头 + 平5合尾 + 特码尾 + 4",
-   "type": "dingshi",
-   "dimension_name": "定式",
-   "historical_win_rate_pct": 96.35
+    "id": "preset_bose_liuhuan_dingji",
+    "name": "六环归化•定半波",
+    "expression": "（平三头 + 总数尾 + 特合尾 + 五合尾 + 二合尾 + 1）六环归化",
+    "type": "bose",
+    "win_rate": null
   },
   {
-   "id": "preset_dingshi_d2_p1hewei_sha_he",
-   "name": "升降合化•太极定式杀合",
-   "expression": "D平2 + 平1合尾 + 9",
-   "type": "dingshi",
-   "dimension_name": "定式维度",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_bose_wuxing_guiyuan_sha",
+    "name": "五行归元•杀半波",
+    "expression": "平5*4 + 1",
+    "type": "bose",
+    "win_rate": 90.51
   },
   {
-   "id": "preset_duan_tianshu_sha",
-   "name": "天枢破界•杀段",
-   "expression": "平2 - D6 + 特*2 + 平4*3 + 正2",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 92.7
+    "id": "preset_bose_liuhe_tongxuan_sha",
+    "name": "六合通玄•杀半波",
+    "expression": "平1 + 平3*2 + 平5 + 4",
+    "type": "bose",
+    "win_rate": 91.3
   },
   {
-   "id": "preset_dingshi_d1_sha_duan",
-   "name": "七星破军•杀段",
-   "expression": "((D1 + 5) % 7) + 1",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 91.3
+    "id": "preset_bose_d4_nil6_sha",
+    "name": "纯阳•杀波",
+    "expression": "D平4 + 逆L平6 + 2",
+    "type": "bose",
+    "win_rate": 91.7
   },
   {
-   "id": "preset_dingshi_d1_sub7_sha_duan",
-   "name": "摇光破空•杀段",
-   "expression": "(|升序平1 - 7| % 7) + 1",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 90.91
+    "id": "preset_new_fission_half_bose",
+    "name": "波合双化•杀半波",
+    "expression": "平2波*2 + 平5合尾 + 1",
+    "type": "bose",
+    "win_rate": 91.6
   },
   {
-   "id": "preset_duan_wanxiang_jiejie_sha",
-   "name": "万象截界•杀段",
-   "expression": "D平4合尾 - D平4门 - D平2行 - L平6段 + 7",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 90.51
+    "id": "preset_cross_half_bose_sha_34",
+    "name": "紫气东来•跨期绝半波",
+    "expression": "(A期D2 + 2* C期特头 + 1) % 6",
+    "type": "bose",
+    "win_rate": 91.24
   },
   {
-   "id": "preset_duan_tianshu_duanwei_sha",
-   "name": "天枢断位•杀段",
-   "expression": "D平2 + L平6 + L平1段 + 特 - 9",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 92.89
+    "id": "preset_cross_half_bose_sha_35",
+    "name": "玄丹吐曜•跨期斩半波",
+    "expression": "(A期L4 + B期D2 + 2) % 6",
+    "type": "bose",
+    "win_rate": 91.24
   },
   {
-   "id": "preset_duan_taixu_dingjie_sha",
-   "name": "太虚定界•杀段",
-   "expression": "D平1合尾 + D平3门 + L平1行 + L平2段 - 3",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 93.28
+    "id": "preset_cross_half_bose_sha_33",
+    "name": "洞虚三昧•跨期杀半波",
+    "expression": "(A期特合尾 + 2* C期L2 + 1) % 6",
+    "type": "bose",
+    "win_rate": 91.63
   },
   {
-   "id": "preset_duan_qiyao_lianzhu_sha",
-   "name": "七曜连珠•杀段",
-   "expression": "L平3 + L平2 + L平5段 - 特 - 9",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 92.09
+    "id": "preset_dingshi_jiuzhuan_6wei",
+    "name": "九转金丹•双期六尾",
+    "expression": "平2头 + 平4头 + 平5合尾 + 特码尾 + 4",
+    "type": "dingshi",
+    "win_rate": 88.66
   },
   {
-   "id": "preset_duan_d5_d6_sha",
-   "name": "天罗•杀段",
-   "expression": "D平5 + D平6 + 2",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 92.89
+    "id": "preset_dingshi_sansan_6wei",
+    "name": "三三来野•双期六尾",
+    "expression": "(五平 + 8) 模10取尾，顺逆展开定六吉尾，预测未来2期",
+    "type": "dingshi",
+    "win_rate": 90.48
   },
   {
-   "id": "preset_duan_p2he_p3tou_sha",
-   "name": "玉枢•杀段",
-   "expression": "平2合 + 平3头",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 93.28
+    "id": "preset_dingshi_sansan",
+    "name": "三三来野•双期八肖",
+    "expression": "(特肖位+期数尾+2)，定肖，-012345，+34",
+    "type": "dingshi",
+    "win_rate": null
   },
   {
-   "id": "preset_duan_tianshu_sha_ds",
-   "name": "天枢断煞•杀段单双",
-   "expression": "平1 + 平4*2 + 特*2 + 1",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_dingshi_zifu_8xiao",
+    "name": "紫府元君•双期八肖",
+    "expression": "(首平码 + 4) 居中对称定八吉肖，预测未来2期",
+    "type": "dingshi",
+    "win_rate": 93.25
   },
   {
-   "id": "preset_duan_xuanji_sha_ds",
-   "name": "玄机化界•杀段单双",
-   "expression": "平3 + 平4 + 平6*2 + 5",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_dingshi_jiuzhuan_8wei",
+    "name": "九转金丹•双期八尾",
+    "expression": "平2头 + 平4头 + 平5合尾 + 特码尾 + 4",
+    "type": "dingshi",
+    "win_rate": 96.35
   },
   {
-   "id": "preset_duan_ziwei_sha_ds",
-   "name": "紫微定劫•杀段单双",
-   "expression": "平1*3 + 平6 + 特*2 + 4",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_dingshi_d2_p1hewei_sha_he",
+    "name": "升降合化•太极定式杀合",
+    "expression": "D平2 + 平1合尾 + 9",
+    "type": "dingshi",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_duan_ds_sanguang",
-   "name": "三光断煞•杀段单双",
-   "expression": "平3 + 平4 + 平6 + 13",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 98.42
+    "id": "preset_duan_tianshu_sha",
+    "name": "天枢破界•杀段",
+    "expression": "平2 - D6 + 特*2 + 平4*3 + 正2",
+    "type": "duan",
+    "win_rate": 92.7
   },
   {
-   "id": "preset_duan_ds_tianzhao",
-   "name": "天招断煞•杀段单双",
-   "expression": "平4*4 + 平5*2 + 11",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_dingshi_d1_sha_duan",
+    "name": "七星破军•杀段",
+    "expression": "((D1 + 5) % 7) + 1",
+    "type": "duan",
+    "win_rate": 91.3
   },
   {
-   "id": "preset_new_reverse_mul_sha_duan",
-   "name": "逆序段乘•杀段",
-   "expression": "逆L平3段*2 + 逆L平5段 + 5",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 91.8
+    "id": "preset_dingshi_d1_sub7_sha_duan",
+    "name": "摇光破空•杀段",
+    "expression": "(|升序平1 - 7| % 7) + 1",
+    "type": "duan",
+    "win_rate": 90.91
   },
   {
-   "id": "preset_new_duan_mul2_sha_duan",
-   "name": "段元双乘•杀段",
-   "expression": "平2段*2 + 平5段 + 3",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 92.1
+    "id": "preset_duan_wanxiang_jiejie_sha",
+    "name": "万象截界•杀段",
+    "expression": "D平4合尾 - D平4门 - D平2行 - L平6段 + 7",
+    "type": "duan",
+    "win_rate": 90.51
   },
   {
-   "id": "preset_new_fission_duan_ds",
-   "name": "合尾双化•杀段单双",
-   "expression": "平1合数*2 + 平4尾 + 7",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 95.8
+    "id": "preset_duan_tianshu_duanwei_sha",
+    "name": "天枢断位•杀段",
+    "expression": "D平2 + L平6 + L平1段 + 特 - 9",
+    "type": "duan",
+    "win_rate": 92.89
   },
   {
-   "id": "preset_cross_duan_sha_36",
-   "name": "七宿周天•跨期杀段",
-   "expression": "(A期D4 *2 + B期平总和尾 - 1) % 7",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 93.23
+    "id": "preset_duan_taixu_dingjie_sha",
+    "name": "太虚定界•杀段",
+    "expression": "D平1合尾 + D平3门 + L平1行 + L平2段 - 3",
+    "type": "duan",
+    "win_rate": 93.28
   },
   {
-   "id": "preset_cross_duan_ds_sha_25",
-   "name": "玄天真武•跨期段双",
-   "expression": "(A期L3 + 2* B期D5 + 0) % 14",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 98.01
+    "id": "preset_duan_qiyao_lianzhu_sha",
+    "name": "七曜连珠•杀段",
+    "expression": "L平3 + L平2 + L平5段 - 特 - 9",
+    "type": "duan",
+    "win_rate": 92.09
   },
   {
-   "id": "preset_cross_duan_ds_sha_24",
-   "name": "七宝金幢•跨期段分",
-   "expression": "(A期特尾 *2 + C期D5 + 4) % 14",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 98.41
+    "id": "preset_duan_d5_d6_sha",
+    "name": "天罗•杀段",
+    "expression": "D平5 + D平6 + 2",
+    "type": "duan",
+    "win_rate": 92.89
   },
   {
-   "id": "preset_cross_duan_ds_sha_26",
-   "name": "九天应元•跨期段极",
-   "expression": "(A期D6 + C期特合尾 + 1) % 14",
-   "type": "duan",
-   "dimension_name": "段数",
-   "historical_win_rate_pct": 98.01
+    "id": "preset_duan_p2he_p3tou_sha",
+    "name": "玉枢•杀段",
+    "expression": "平2合 + 平3头",
+    "type": "duan",
+    "win_rate": 93.28
   },
   {
-   "id": "preset_head_xuantian_sha",
-   "name": "玄天断煞•杀头",
-   "expression": "平2 - D5 + 特 + 平4*2",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": null
+    "id": "preset_duan_tianshu_sha_ds",
+    "name": "天枢断煞•杀段单双",
+    "expression": "平1 + 平4*2 + 特*2 + 1",
+    "type": "duan",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_dingshi_qiankun_sha_tou",
-   "name": "乾坤轮转•杀头",
-   "expression": "期号逆序循环取平码(平6->平1)头数H，杀(H+3)%5头",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 86.56
+    "id": "preset_duan_xuanji_sha_ds",
+    "name": "玄机化界•杀段单双",
+    "expression": "平3 + 平4 + 平6*2 + 5",
+    "type": "duan",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_head_zichen_juetou_sha",
-   "name": "紫晨绝头•杀头",
-   "expression": "L平1 + L平6 - D平4段 - 6",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 89.33
+    "id": "preset_duan_ziwei_sha_ds",
+    "name": "紫微定劫•杀段单双",
+    "expression": "平1*3 + 平6 + 特*2 + 4",
+    "type": "duan",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_head_tiangang_jieshou_sha",
-   "name": "天罡截首•杀头",
-   "expression": "D平5 - L平6 + L平4波 + 2",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 88.93
+    "id": "preset_duan_ds_sanguang",
+    "name": "三光断煞•杀段单双",
+    "expression": "平3 + 平4 + 平6 + 13",
+    "type": "duan",
+    "win_rate": 98.42
   },
   {
-   "id": "preset_head_jiuxiao_sha_ds",
-   "name": "九霄神雷•杀头单双",
-   "expression": "平2*3 + 平6 + 特 + 9",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_duan_ds_tianzhao",
+    "name": "天招断煞•杀段单双",
+    "expression": "平4*4 + 平5*2 + 11",
+    "type": "duan",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_head_taixuan_sha_ds",
-   "name": "太玄天罡•杀头单双",
-   "expression": "平3*2 + 5",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_new_reverse_mul_sha_duan",
+    "name": "逆序段乘•杀段",
+    "expression": "逆L平3段*2 + 逆L平5段 + 5",
+    "type": "duan",
+    "win_rate": 91.8
   },
   {
-   "id": "preset_head_zifu_sha_ds",
-   "name": "紫府纯阳•杀头单双",
-   "expression": "平2*2 + 平3*2 + 特 + 2",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 95.26
+    "id": "preset_new_duan_mul2_sha_duan",
+    "name": "段元双乘•杀段",
+    "expression": "平2段*2 + 平5段 + 3",
+    "type": "duan",
+    "win_rate": 92.1
   },
   {
-   "id": "preset_head_p4hewei_p1bo_sha",
-   "name": "紫清•杀头",
-   "expression": "平4合尾 + 平1波 + 3",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_new_fission_duan_ds",
+    "name": "合尾双化•杀段单双",
+    "expression": "平1合数*2 + 平4尾 + 7",
+    "type": "duan",
+    "win_rate": 95.8
   },
   {
-   "id": "preset_head_ds_sanyuan",
-   "name": "三元头分•杀头单双",
-   "expression": "平3 + 平4*3 + 6",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_cross_duan_sha_36",
+    "name": "七宿周天•跨期杀段",
+    "expression": "(A期D4 *2 + B期平总和尾 - 1) % 7",
+    "type": "duan",
+    "win_rate": 93.23
   },
   {
-   "id": "preset_head_ds_tianshu",
-   "name": "天枢头分•杀头单双",
-   "expression": "平1*3 + 平2*2 + 平5 + 7",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_cross_duan_ds_sha_25",
+    "name": "玄天真武•跨期段双",
+    "expression": "(A期L3 + 2* B期D5 + 0) % 14",
+    "type": "duan",
+    "win_rate": 98.01
   },
   {
-   "id": "preset_head_ds_wuling",
-   "name": "五灵头分•杀头单双",
-   "expression": "平2*3 + 平3*2 + 平6 + 7",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_cross_duan_ds_sha_24",
+    "name": "七宝金幢•跨期段分",
+    "expression": "(A期特尾 *2 + C期D5 + 4) % 14",
+    "type": "duan",
+    "win_rate": 98.41
   },
   {
-   "id": "preset_new_fission_head_ds",
-   "name": "头合双化•杀头单双",
-   "expression": "平1头*2 + 平4合数 + 6",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.1
+    "id": "preset_cross_duan_ds_sha_26",
+    "name": "九天应元•跨期段极",
+    "expression": "(A期D6 + C期特合尾 + 1) % 14",
+    "type": "duan",
+    "win_rate": 98.01
   },
   {
-   "id": "preset_cross_head_ds_sha_31",
-   "name": "少阳伏魔•跨期头双",
-   "expression": "(A期总和尾 + 2* B期L5 + 3) % 10",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_head_xuantian_sha",
+    "name": "玄天断煞•杀头",
+    "expression": "平2 - D5 + 特 + 平4*2",
+    "type": "head",
+    "win_rate": null
   },
   {
-   "id": "preset_cross_head_ds_sha_32",
-   "name": "玉堂清贵•跨期头极",
-   "expression": "(A期D1 *2 + B期D1 + 3) % 10",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_dingshi_qiankun_sha_tou",
+    "name": "乾坤轮转•杀头",
+    "expression": "期号逆序循环取平码(平6->平1)头数H，杀(H+3)%5头",
+    "type": "head",
+    "win_rate": 86.56
   },
   {
-   "id": "preset_cross_head_ds_sha_30",
-   "name": "太初开元•跨期头分",
-   "expression": "(A期L5 - C期平总和尾 - 2) % 10",
-   "type": "head",
-   "dimension_name": "头数",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_head_zichen_juetou_sha",
+    "name": "紫晨绝头•杀头",
+    "expression": "L平1 + L平6 - D平4段 - 6",
+    "type": "head",
+    "win_rate": 89.33
   },
   {
-   "id": "preset_hewei_ds_xuanming",
-   "name": "玄冥合分•杀合尾单双",
-   "expression": "平3 + 平4 + 平6*2 + 8",
-   "type": "hewei_ds",
-   "dimension_name": "合尾单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_head_tiangang_jieshou_sha",
+    "name": "天罡截首•杀头",
+    "expression": "D平5 - L平6 + L平4波 + 2",
+    "type": "head",
+    "win_rate": 88.93
   },
   {
-   "id": "preset_hewei_ds_taixu",
-   "name": "太虚合分•杀合尾单双",
-   "expression": "平3*4 + 平5*4 + 19",
-   "type": "hewei_ds",
-   "dimension_name": "合尾单双",
-   "historical_win_rate_pct": 99.6
+    "id": "preset_head_jiuxiao_sha_ds",
+    "name": "九霄神雷•杀头单双",
+    "expression": "平2*3 + 平6 + 特 + 9",
+    "type": "head",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_hewei_ds_qiankun",
-   "name": "乾坤合分•杀合尾单双",
-   "expression": "平3*2 + 平5*4 + 平6 + 6",
-   "type": "hewei_ds",
-   "dimension_name": "合尾单双",
-   "historical_win_rate_pct": 99.6
+    "id": "preset_head_taixuan_sha_ds",
+    "name": "太玄天罡•杀头单双",
+    "expression": "平3*2 + 5",
+    "type": "head",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_jiugong_ds_ziwei",
-   "name": "紫薇九分•杀宫单双",
-   "expression": "平3*2 + 平5*2 + 7",
-   "type": "jiugong_ds",
-   "dimension_name": "九宫单双",
-   "historical_win_rate_pct": 98.81
+    "id": "preset_head_zifu_sha_ds",
+    "name": "紫府纯阳•杀头单双",
+    "expression": "平2*2 + 平3*2 + 特 + 2",
+    "type": "head",
+    "win_rate": 95.26
   },
   {
-   "id": "preset_jiugong_ds_xuanwu",
-   "name": "玄武九分•杀宫单双",
-   "expression": "平4*2 + 平5 + 平6 + 4",
-   "type": "jiugong_ds",
-   "dimension_name": "九宫单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_head_p4hewei_p1bo_sha",
+    "name": "紫清•杀头",
+    "expression": "平4合尾 + 平1波 + 3",
+    "type": "head",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_jiugong_ds_tianxuan",
-   "name": "天璇九分•杀宫单双",
-   "expression": "平1*2 + 平5*4 + 平6*3",
-   "type": "jiugong_ds",
-   "dimension_name": "九宫单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_head_ds_sanyuan",
+    "name": "三元头分•杀头单双",
+    "expression": "平3 + 平4*3 + 6",
+    "type": "head",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_jiugong_dx_tianyuan",
-   "name": "天元九大•杀宫大小",
-   "expression": "平1*4 + 平2 + 平3*3",
-   "type": "jiugong_dx",
-   "dimension_name": "九宫大小",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_head_ds_tianshu",
+    "name": "天枢头分•杀头单双",
+    "expression": "平1*3 + 平2*2 + 平5 + 7",
+    "type": "head",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_jiugong_dx_lihuo",
-   "name": "离火九大•杀宫大小",
-   "expression": "平1*2 + 平3*4 + 平4 + 5",
-   "type": "jiugong_dx",
-   "dimension_name": "九宫大小",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_head_ds_wuling",
+    "name": "五灵头分•杀头单双",
+    "expression": "平2*3 + 平3*2 + 平6 + 7",
+    "type": "head",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_men_jiuxuan_sha",
-   "name": "九玄闭门•杀门",
-   "expression": "平3 - D6 + 特*2 + 平1*3 + 正6",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 87.9
+    "id": "preset_new_fission_head_ds",
+    "name": "头合双化•杀头单双",
+    "expression": "平1头*2 + 平4合数 + 6",
+    "type": "head",
+    "win_rate": 96.1
   },
   {
-   "id": "preset_men_jiuxuan_zhenmen_sha",
-   "name": "九玄镇门•杀门",
-   "expression": "L平6 + L平1 - D平4段",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 89.33
+    "id": "preset_cross_head_ds_sha_31",
+    "name": "少阳伏魔•跨期头双",
+    "expression": "(A期总和尾 + 2* B期L5 + 3) % 10",
+    "type": "head",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_men_taiwei_pingmen_sha",
-   "name": "太微平门•杀门",
-   "expression": "D平1 + D平3 + L平3波 - 9",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 90.12
+    "id": "preset_cross_head_ds_sha_32",
+    "name": "玉堂清贵•跨期头极",
+    "expression": "(A期D1 *2 + B期D1 + 3) % 10",
+    "type": "head",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_men_sixiang_suogong_sha",
-   "name": "四象锁宫•杀九宫",
-   "expression": "平1*2 + 平2*2 + 平6*2 + 特 + 6",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 93.68
+    "id": "preset_cross_head_ds_sha_30",
+    "name": "太初开元•跨期头分",
+    "expression": "(A期L5 - C期平总和尾 - 2) % 10",
+    "type": "head",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_men_jiugong_guiyuan_sha",
-   "name": "九宫归元•杀九宫",
-   "expression": "平1*2 + 平2 + 2",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 94.07
+    "id": "preset_hewei_ds_xuanming",
+    "name": "玄冥合分•杀合尾单双",
+    "expression": "平3 + 平4 + 平6*2 + 8",
+    "type": "hewei_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_men_nil1_p6tou_sha",
-   "name": "玄真•杀宫",
-   "expression": "逆L平1 + 平6头 + 7",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_hewei_ds_taixu",
+    "name": "太虚合分•杀合尾单双",
+    "expression": "平3*4 + 平5*4 + 19",
+    "type": "hewei_ds",
+    "win_rate": 99.6
   },
   {
-   "id": "preset_men_bagua_sha",
-   "name": "八卦神机•杀九宫",
-   "expression": "平2*3 + 平4 + 平5*2 + 5",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 90.12
+    "id": "preset_hewei_ds_qiankun",
+    "name": "乾坤合分•杀合尾单双",
+    "expression": "平3*2 + 平5*4 + 平6 + 6",
+    "type": "hewei_ds",
+    "win_rate": 99.6
   },
   {
-   "id": "preset_jiugong_xuanwu_sha",
-   "name": "玄武宫机•杀九宫",
-   "expression": "平1*2 + 平3 + 平6*3 + 1",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_jiugong_ds_ziwei",
+    "name": "紫薇九分•杀宫单双",
+    "expression": "平3*2 + 平5*2 + 7",
+    "type": "jiugong_ds",
+    "win_rate": 98.81
   },
   {
-   "id": "preset_jiugong_lihuo_sha",
-   "name": "离火宫机•杀九宫",
-   "expression": "平3*2 + 平5*3 + 2",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_jiugong_ds_xuanwu",
+    "name": "玄武九分•杀宫单双",
+    "expression": "平4*2 + 平5 + 平6 + 4",
+    "type": "jiugong_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_new_fission_jiugong",
-   "name": "门段双化•杀九宫",
-   "expression": "平3门*2 + 平6段 + 3",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 94.3
+    "id": "preset_jiugong_ds_tianxuan",
+    "name": "天璇九分•杀宫单双",
+    "expression": "平1*2 + 平5*4 + 平6*3",
+    "type": "jiugong_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_jiugong_ds_sha_5",
-   "name": "太微玉清•跨期九衡",
-   "expression": "(A期D4 *2 + C期L1 + 4) % 18",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_jiugong_dx_tianyuan",
+    "name": "天元九大•杀宫大小",
+    "expression": "平1*4 + 平2 + 平3*3",
+    "type": "jiugong_dx",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_jiugong_ds_sha_4",
-   "name": "太乙神枢•跨期九分",
-   "expression": "(A期L1 + B期D5 - 1) % 18",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_jiugong_dx_lihuo",
+    "name": "离火九大•杀宫大小",
+    "expression": "平1*2 + 平3*4 + 平4 + 5",
+    "type": "jiugong_dx",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_jiugong_ds_sha_3",
-   "name": "天罡九辰•跨期宫分",
-   "expression": "(A期特段 *2 + C期L4 + 0) % 18",
-   "type": "men",
-   "dimension_name": "门数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_men_jiuxuan_sha",
+    "name": "九玄闭门•杀门",
+    "expression": "平3 - D6 + 特*2 + 平1*3 + 正6",
+    "type": "men",
+    "win_rate": 87.9
   },
   {
-   "id": "preset_season_siji_lunhui",
-   "name": "四季轮回•定季",
-   "expression": "平4 - D6 + 特1 + 平3 + 正5*1",
-   "type": "season",
-   "dimension_name": "四季生肖",
-   "historical_win_rate_pct": null
+    "id": "preset_men_jiuxuan_zhenmen_sha",
+    "name": "九玄镇门•杀门",
+    "expression": "L平6 + L平1 - D平4段",
+    "type": "men",
+    "win_rate": 89.33
   },
   {
-   "id": "preset_season_sixiang_sha",
-   "name": "四象巡空•杀季",
-   "expression": "平3 - D5 + 特*2 + 平3*2 + 正2",
-   "type": "season",
-   "dimension_name": "四季生肖",
-   "historical_win_rate_pct": 86.6
+    "id": "preset_men_taiwei_pingmen_sha",
+    "name": "太微平门•杀门",
+    "expression": "D平1 + D平3 + L平3波 - 9",
+    "type": "men",
+    "win_rate": 90.12
   },
   {
-   "id": "preset_season_sixu_yiyao_sha",
-   "name": "四序移曜•杀季",
-   "expression": "D平4 + D平3 + D平3段 + 1",
-   "type": "season",
-   "dimension_name": "四季生肖",
-   "historical_win_rate_pct": 78.26
+    "id": "preset_men_sixiang_suogong_sha",
+    "name": "四象锁宫•杀九宫",
+    "expression": "平1*2 + 平2*2 + 平6*2 + 特 + 6",
+    "type": "men",
+    "win_rate": 93.68
   },
   {
-   "id": "preset_season_xuanling_suichu_sha",
-   "name": "玄灵岁除•杀季",
-   "expression": "D平1 - D平4 - D平2段 - 7",
-   "type": "season",
-   "dimension_name": "四季生肖",
-   "historical_win_rate_pct": 76.68
+    "id": "preset_men_jiugong_guiyuan_sha",
+    "name": "九宫归元•杀九宫",
+    "expression": "平1*2 + 平2 + 2",
+    "type": "men",
+    "win_rate": 94.07
   },
   {
-   "id": "preset_sum_qiankun_daxiao",
-   "name": "乾坤合德•定合大",
-   "expression": "平2 - D5 + 特 + 平2 + 正5*1",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_men_nil1_p6tou_sha",
+    "name": "玄真•杀宫",
+    "expression": "逆L平1 + 平6头 + 7",
+    "type": "men",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_sum_tiangang_sha",
-   "name": "天罡化煞•杀合",
-   "expression": "平5 - D6 + 特 + 平1 + 正4*4",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": null
+    "id": "preset_men_bagua_sha",
+    "name": "八卦神机•杀九宫",
+    "expression": "平2*3 + 平4 + 平5*2 + 5",
+    "type": "men",
+    "win_rate": 90.12
   },
   {
-   "id": "preset_sum_qianyuan_sha",
-   "name": "乾元破煞•杀合",
-   "expression": "平2 - D5 + 特*2 + 平3 + 正6*2",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 91.9
+    "id": "preset_jiugong_xuanwu_sha",
+    "name": "玄武宫机•杀九宫",
+    "expression": "平1*2 + 平3 + 平6*3 + 1",
+    "type": "men",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_sum_wanxiang_guixu_sha",
-   "name": "万象归虚•杀合",
-   "expression": "L平1 - L平2合尾 - L平2波 + 8",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 97.63
+    "id": "preset_jiugong_lihuo_sha",
+    "name": "离火宫机•杀九宫",
+    "expression": "平3*2 + 平5*3 + 2",
+    "type": "men",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_sum_sanyuan_huahe_sha",
-   "name": "三元化合•杀合",
-   "expression": "L平3 + D平3合尾 - D平1波 - 4",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_new_fission_jiugong",
+    "name": "门段双化•杀九宫",
+    "expression": "平3门*2 + 平6段 + 3",
+    "type": "men",
+    "win_rate": 94.3
   },
   {
-   "id": "preset_sum_taixu_hezhen_sha",
-   "name": "太虚合真•杀合",
-   "expression": "L平1 - L平2 - L平1段",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 92.89
+    "id": "preset_cross_jiugong_ds_sha_5",
+    "name": "太微玉清•跨期九衡",
+    "expression": "(A期D4 *2 + C期L1 + 4) % 18",
+    "type": "men",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_sum_nild1_p1wei_sha",
-   "name": "天罡•杀合",
-   "expression": "逆D平1 + 平1尾 + 1",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_cross_jiugong_ds_sha_4",
+    "name": "太乙神枢•跨期九分",
+    "expression": "(A期L1 + B期D5 - 1) % 18",
+    "type": "men",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_sum_d6_p1wei_sha",
-   "name": "混元•杀合",
-   "expression": "D平6 + 平1尾 + 1",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_cross_jiugong_ds_sha_3",
+    "name": "天罡九辰•跨期宫分",
+    "expression": "(A期特段 *2 + C期L4 + 0) % 18",
+    "type": "men",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_sum_d2_hewei_sha",
-   "name": "太极•杀合",
-   "expression": "D平2 + 平1合尾 + 9",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_season_siji_lunhui",
+    "name": "四季轮回•定季",
+    "expression": "平4 - D6 + 特1 + 平3 + 正5*1",
+    "type": "season",
+    "win_rate": null
   },
   {
-   "id": "preset_sum_liangyi_sha_hewei",
-   "name": "两仪破极•杀合尾",
-   "expression": "平1*2 + 平3*3 + 特*2 + 7",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 91.3
+    "id": "preset_season_sixiang_sha",
+    "name": "四象巡空•杀季",
+    "expression": "平3 - D5 + 特*2 + 平3*2 + 正2",
+    "type": "season",
+    "win_rate": 86.6
   },
   {
-   "id": "preset_sum_jiugong_sha_hewei",
-   "name": "九宫锁合•杀合尾",
-   "expression": "平1*3 + 平4 + 特 + 8",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 90.91
+    "id": "preset_season_sixu_yiyao_sha",
+    "name": "四序移曜•杀季",
+    "expression": "D平4 + D平3 + D平3段 + 1",
+    "type": "season",
+    "win_rate": 78.26
   },
   {
-   "id": "preset_sum_taixu_sha_hewei",
-   "name": "太虚合真•杀合尾",
-   "expression": "平1 + 平2*2 + 平4 + 6",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 92.89
+    "id": "preset_season_xuanling_suichu_sha",
+    "name": "玄灵岁除•杀季",
+    "expression": "D平1 - D平4 - D平2段 - 7",
+    "type": "season",
+    "win_rate": 76.68
   },
   {
-   "id": "preset_new_fission_hewei",
-   "name": "五行三化•杀合尾",
-   "expression": "平3五行*3 + 平6头 + 5",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 92.4
+    "id": "preset_sum_qiankun_daxiao",
+    "name": "乾坤合德•定合大",
+    "expression": "平2 - D5 + 特 + 平2 + 正5*1",
+    "type": "sum",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_cross_hewei_sha_19",
-   "name": "玄元斩晦•跨期绝合",
-   "expression": "(A期逆D1 + B期特段 + 4) % 10",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_sum_tiangang_sha",
+    "name": "天罡化煞•杀合",
+    "expression": "平5 - D6 + 特 + 平1 + 正4*4",
+    "type": "sum",
+    "win_rate": null
   },
   {
-   "id": "preset_cross_hewei_sha_20",
-   "name": "太虚敛华•跨期斩合尾",
-   "expression": "(A期D1 *2 + B期特 + 1) % 10",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_sum_qianyuan_sha",
+    "name": "乾元破煞•杀合",
+    "expression": "平2 - D5 + 特*2 + 平3 + 正6*2",
+    "type": "sum",
+    "win_rate": 91.9
   },
   {
-   "id": "preset_cross_hewei_ds_sha_12",
-   "name": "太和神印•跨期合分",
-   "expression": "(A期D6 *2 + C期特头 + 1) % 20",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_sum_wanxiang_guixu_sha",
+    "name": "万象归虚•杀合",
+    "expression": "L平1 - L平2合尾 - L平2波 + 8",
+    "type": "sum",
+    "win_rate": 97.63
   },
   {
-   "id": "preset_cross_hewei_ds_sha_13",
-   "name": "乾阳离明•跨期合极",
-   "expression": "(A期逆D1 *2 + C期特头 + 1) % 20",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_sum_sanyuan_huahe_sha",
+    "name": "三元化合•杀合",
+    "expression": "L平3 + D平3合尾 - D平1波 - 4",
+    "type": "sum",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_cross_hewei_ds_sha_14",
-   "name": "两仪化气•跨期合衡",
-   "expression": "(A期D2 + B期特尾 + 3) % 20",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_sum_taixu_hezhen_sha",
+    "name": "太虚合真•杀合",
+    "expression": "L平1 - L平2 - L平1段",
+    "type": "sum",
+    "win_rate": 92.89
   },
   {
-   "id": "preset_cross_hewei_sha_18",
-   "name": "三清化合•跨期杀合",
-   "expression": "(A期D6 + B期特段 + 4) % 10",
-   "type": "sum",
-   "dimension_name": "合数",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_sum_nild1_p1wei_sha",
+    "name": "天罡•杀合",
+    "expression": "逆D平1 + 平1尾 + 1",
+    "type": "sum",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_dingshi_2",
-   "name": "七星归元•杀尾",
-   "expression": "(二平×3 + 五平×2 + 3) 取个位定位杀尾",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.26
+    "id": "preset_sum_d6_p1wei_sha",
+    "name": "混元•杀合",
+    "expression": "D平6 + 平1尾 + 1",
+    "type": "sum",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_tail_1",
-   "name": "天罡断煞•杀尾",
-   "expression": "(二平 + 特码×2 + 5) 取个位定位杀尾",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_sum_d2_hewei_sha",
+    "name": "太极•杀合",
+    "expression": "D平2 + 平1合尾 + 9",
+    "type": "sum",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_tail_tianji_sha",
-   "name": "天机化煞•杀尾",
-   "expression": "(总和数 + 平2尾 + 平6尾 + 4) 的个位数",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 90.69
+    "id": "preset_sum_liangyi_sha_hewei",
+    "name": "两仪破极•杀合尾",
+    "expression": "平1*2 + 平3*3 + 特*2 + 7",
+    "type": "sum",
+    "win_rate": 91.3
   },
   {
-   "id": "preset_tail_qiankun_sha",
-   "name": "乾坤归寂•杀尾",
-   "expression": "(平4合尾 + 平6合尾 + 特码尾 + 9) 的个位数",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 89.88
+    "id": "preset_sum_jiugong_sha_hewei",
+    "name": "九宫锁合•杀合尾",
+    "expression": "平1*3 + 平4 + 特 + 8",
+    "type": "sum",
+    "win_rate": 90.91
   },
   {
-   "id": "preset_tail_tianheng_sha",
-   "name": "天衡归寂•杀尾",
-   "expression": "平5 - D6 + 特 + 平3*3 + 正2",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 91.9
+    "id": "preset_sum_taixu_sha_hewei",
+    "name": "太虚合真•杀合尾",
+    "expression": "平1 + 平2*2 + 平4 + 6",
+    "type": "sum",
+    "win_rate": 92.89
   },
   {
-   "id": "preset_tail_taiji_sha",
-   "name": "太极断煞•杀尾",
-   "expression": "平4 - D5 + 特 + 平2*3 + 正6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.1
+    "id": "preset_new_fission_hewei",
+    "name": "五行三化•杀合尾",
+    "expression": "平3五行*3 + 平6头 + 5",
+    "type": "sum",
+    "win_rate": 92.4
   },
   {
-   "id": "preset_dingshi_wuxing_sha_wei",
-   "name": "五星连珠•杀尾",
-   "expression": "期号逆序循环取平码(平6->平2)尾数T，杀(T+4)%10与(T+5)%10尾",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 85.38
+    "id": "preset_cross_hewei_sha_19",
+    "name": "玄元斩晦•跨期绝合",
+    "expression": "(A期逆D1 + B期特段 + 4) % 10",
+    "type": "sum",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_dingshi_d3_he_sha_wei",
-   "name": "三清归位•杀尾",
-   "expression": "(D3合数 + 5) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_cross_hewei_sha_20",
+    "name": "太虚敛华•跨期斩合尾",
+    "expression": "(A期D1 *2 + B期特 + 1) % 10",
+    "type": "sum",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_dingshi_l4_he_sha_wei",
-   "name": "四极五乘•杀尾",
-   "expression": "(L4合数 * 5) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_cross_hewei_ds_sha_12",
+    "name": "太和神印•跨期合分",
+    "expression": "(A期D6 *2 + C期特头 + 1) % 20",
+    "type": "sum",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_dingshi_l1_mul4_sha_wei",
-   "name": "震雷疾驰•杀尾",
-   "expression": "(平1 * 4) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_cross_hewei_ds_sha_13",
+    "name": "乾阳离明•跨期合极",
+    "expression": "(A期逆D1 *2 + C期特头 + 1) % 20",
+    "type": "sum",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_dingshi_l2_tail_sub3_sha_wei",
-   "name": "离宫退煞•杀尾",
-   "expression": "|平2尾数 - 3| % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 94.86
+    "id": "preset_cross_hewei_ds_sha_14",
+    "name": "两仪化气•跨期合衡",
+    "expression": "(A期D2 + B期特尾 + 3) % 20",
+    "type": "sum",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_tail_jiutian_suowei_sha",
-   "name": "九天锁尾•杀尾",
-   "expression": "D平5 + D平3 + L平3段 - 特",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_cross_hewei_sha_18",
+    "name": "三清化合•跨期杀合",
+    "expression": "(A期D6 + B期特段 + 4) % 10",
+    "type": "sum",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_tail_liangyi_juesha_sha",
-   "name": "两仪绝煞•杀尾",
-   "expression": "D平4 - D平5 + L平4段 - 特 - 3",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_dingshi_2",
+    "name": "七星归元•杀尾",
+    "expression": "(二平×3 + 五平×2 + 3) 取个位定位杀尾",
+    "type": "tail",
+    "win_rate": 95.26
   },
   {
-   "id": "preset_tail_tianji_chengyun_sha",
-   "name": "天玑乘运•杀尾",
-   "expression": "D平2 + D平2波 + D平6*3 - 6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_tail_1",
+    "name": "天罡断煞•杀尾",
+    "expression": "(二平 + 特码×2 + 5) 取个位定位杀尾",
+    "type": "tail",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_tail_xuanya_qixing_sha",
-   "name": "玄曜七星•杀尾",
-   "expression": "D平4 + D平1波 + L平4*7 - 6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_tail_tianji_sha",
+    "name": "天机化煞•杀尾",
+    "expression": "(总和数 + 平2尾 + 平6尾 + 4) 的个位数",
+    "type": "tail",
+    "win_rate": 90.69
   },
   {
-   "id": "preset_tail_leiting_bagua_sha",
-   "name": "雷霆八卦•杀尾",
-   "expression": "D平1 + L平4波 + D平6*8 + 1",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 95.65
+    "id": "preset_tail_qiankun_sha",
+    "name": "乾坤归寂•杀尾",
+    "expression": "(平4合尾 + 平6合尾 + 特码尾 + 9) 的个位数",
+    "type": "tail",
+    "win_rate": 89.88
   },
   {
-   "id": "preset_tail_p3tou_double_sha",
-   "name": "三元•杀尾",
-   "expression": "平3头 + 平3头 + 6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_tail_tianheng_sha",
+    "name": "天衡归寂•杀尾",
+    "expression": "平5 - D6 + 特 + 平3*3 + 正2",
+    "type": "tail",
+    "win_rate": 91.9
   },
   {
-   "id": "preset_tail_tianyuan_sha",
-   "name": "天元归真•杀尾",
-   "expression": "平2 + 平5*3 + 特 + 7",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 94.47
+    "id": "preset_tail_taiji_sha",
+    "name": "太极断煞•杀尾",
+    "expression": "平4 - D5 + 特 + 平2*3 + 正6",
+    "type": "tail",
+    "win_rate": 95.1
   },
   {
-   "id": "preset_tail_taiyi_sha",
-   "name": "太乙定空•杀尾",
-   "expression": "平3*2 + 平5*2 + 特*2 + 6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 92.49
+    "id": "preset_dingshi_wuxing_sha_wei",
+    "name": "五星连珠•杀尾",
+    "expression": "期号逆序循环取平码(平6->平2)尾数T，杀(T+4)%10与(T+5)%10尾",
+    "type": "tail",
+    "win_rate": 85.38
   },
   {
-   "id": "preset_tail_biyue_sha",
-   "name": "碧月杀尾•杀尾数",
-   "expression": "平1*3 + 平4 + 平5 + 2",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_dingshi_d3_he_sha_wei",
+    "name": "三清归位•杀尾",
+    "expression": "(D3合数 + 5) % 10",
+    "type": "tail",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_tail_tianxuan_sha",
-   "name": "天璇杀尾•杀尾数",
-   "expression": "平1 + 平3*2 + 平5*2 + 8",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_dingshi_l4_he_sha_wei",
+    "name": "四极五乘•杀尾",
+    "expression": "(L4合数 * 5) % 10",
+    "type": "tail",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_new_hewei_mul3_sha_wei",
-   "name": "玄合三乘•杀尾",
-   "expression": "平1合尾*3 + 平3合尾 + 7",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 93.2
+    "id": "preset_dingshi_l1_mul4_sha_wei",
+    "name": "震雷疾驰•杀尾",
+    "expression": "(平1 * 4) % 10",
+    "type": "tail",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_new_head_tail_sum_sha_wei",
-   "name": "头尾合化•杀尾",
-   "expression": "平1头 + 平3尾 + 平5合数 + 9",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 93.5
+    "id": "preset_dingshi_l2_tail_sub3_sha_wei",
+    "name": "离宫退煞•杀尾",
+    "expression": "|平2尾数 - 3| % 10",
+    "type": "tail",
+    "win_rate": 94.86
   },
   {
-   "id": "preset_new_sum_mul_sha_wei",
-   "name": "合数双乘•杀尾",
-   "expression": "平2合数*2 + 平4合数 + 1",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 93.1
+    "id": "preset_tail_jiutian_suowei_sha",
+    "name": "九天锁尾•杀尾",
+    "expression": "D平5 + D平3 + L平3段 - 特",
+    "type": "tail",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_new_total_mul_sha_wei",
-   "name": "总和双乘•杀尾",
-   "expression": "总和数*2 + 平1尾 + 6",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 93.6
+    "id": "preset_tail_liangyi_juesha_sha",
+    "name": "两仪绝煞•杀尾",
+    "expression": "D平4 - D平5 + L平4段 - 特 - 3",
+    "type": "tail",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_new_wuxing_mul4_sha_wei",
-   "name": "五行四乘•杀尾",
-   "expression": "平4五行*4 + 平1五行 + 8",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 93.8
+    "id": "preset_tail_tianji_chengyun_sha",
+    "name": "天玑乘运•杀尾",
+    "expression": "D平2 + D平2波 + D平6*3 - 6",
+    "type": "tail",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_cross_tail_ds_sha_8",
-   "name": "丹丘洞虚•跨期尾极",
-   "expression": "(A期D5 + 2* C期特 - 3) % 20",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_tail_xuanya_qixing_sha",
+    "name": "玄曜七星•杀尾",
+    "expression": "D平4 + D平1波 + L平4*7 - 6",
+    "type": "tail",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_cross_tail_sha_21",
-   "name": "七曜离光•跨期杀尾",
-   "expression": "(A期特段 *2 + B期特段 - 1) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_tail_leiting_bagua_sha",
+    "name": "雷霆八卦•杀尾",
+    "expression": "D平1 + L平4波 + D平6*8 + 1",
+    "type": "tail",
+    "win_rate": 95.65
   },
   {
-   "id": "preset_cross_tail_sha_23",
-   "name": "神霄断虚•跨期破尾",
-   "expression": "(A期平总和尾 *2 + C期特段 + 1) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_tail_p3tou_double_sha",
+    "name": "三元•杀尾",
+    "expression": "平3头 + 平3头 + 6",
+    "type": "tail",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_cross_tail_sha_22",
-   "name": "紫微锁钥•跨期绝尾",
-   "expression": "(A期L5 + B期特头 + 0) % 10",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_tail_tianyuan_sha",
+    "name": "天元归真•杀尾",
+    "expression": "平2 + 平5*3 + 特 + 7",
+    "type": "tail",
+    "win_rate": 94.47
   },
   {
-   "id": "preset_cross_tail_ds_sha_7",
-   "name": "真元玉柱•跨期尾衡",
-   "expression": "(A期D2 *2 + C期平总和尾 - 2) % 20",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_tail_taiyi_sha",
+    "name": "太乙定空•杀尾",
+    "expression": "平3*2 + 平5*2 + 特*2 + 6",
+    "type": "tail",
+    "win_rate": 92.49
   },
   {
-   "id": "preset_cross_tail_ds_sha_6",
-   "name": "玄冥九尾•跨期尾分",
-   "expression": "(A期特合尾 + B期D4 + 1) % 20",
-   "type": "tail",
-   "dimension_name": "尾数",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_tail_biyue_sha",
+    "name": "碧月杀尾•杀尾数",
+    "expression": "平1*3 + 平4 + 平5 + 2",
+    "type": "tail",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_tail_ds_biyue",
-   "name": "碧月尾分•杀尾单双",
-   "expression": "平1*2 + 平4*2 + 平6*4 + 15",
-   "type": "tail_ds",
-   "dimension_name": "尾数单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_tail_tianxuan_sha",
+    "name": "天璇杀尾•杀尾数",
+    "expression": "平1 + 平3*2 + 平5*2 + 8",
+    "type": "tail",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_tail_ds_tianmen",
-   "name": "天门尾分•杀尾单双",
-   "expression": "平1*4 + 平4*3",
-   "type": "tail_ds",
-   "dimension_name": "尾数单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_new_hewei_mul3_sha_wei",
+    "name": "玄合三乘•杀尾",
+    "expression": "平1合尾*3 + 平3合尾 + 7",
+    "type": "tail",
+    "win_rate": 93.2
   },
   {
-   "id": "preset_tail_ds_kunxiang",
-   "name": "坤象尾分•杀尾单双",
-   "expression": "平3*2 + 平5*2 + 平6*4 + 13",
-   "type": "tail_ds",
-   "dimension_name": "尾数单双",
-   "historical_win_rate_pct": 99.21
+    "id": "preset_new_head_tail_sum_sha_wei",
+    "name": "头尾合化•杀尾",
+    "expression": "平1头 + 平3尾 + 平5合数 + 9",
+    "type": "tail",
+    "win_rate": 93.5
   },
   {
-   "id": "preset_wuxing_taibai_sha",
-   "name": "太白遁甲•杀五行",
-   "expression": "平1 - D6 + 特 + 平3*2 + 正1",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 85.8
+    "id": "preset_new_sum_mul_sha_wei",
+    "name": "合数双乘•杀尾",
+    "expression": "平2合数*2 + 平4合数 + 1",
+    "type": "tail",
+    "win_rate": 93.1
   },
   {
-   "id": "preset_wuxing_jimie_sha",
-   "name": "五行寂灭•杀五行",
-   "expression": "平6 - D3 + 特 + 平5*3 + 正6",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 87.9
+    "id": "preset_new_total_mul_sha_wei",
+    "name": "总和双乘•杀尾",
+    "expression": "总和数*2 + 平1尾 + 6",
+    "type": "tail",
+    "win_rate": 93.6
   },
   {
-   "id": "preset_wuxing_wuxing_guizhen_sha",
-   "name": "五行归真•杀五行",
-   "expression": "D平3 - D平3 + L平3波 + 5",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 88.54
+    "id": "preset_new_wuxing_mul4_sha_wei",
+    "name": "五行四乘•杀尾",
+    "expression": "平4五行*4 + 平1五行 + 8",
+    "type": "tail",
+    "win_rate": 93.8
   },
   {
-   "id": "preset_wuxing_taiyi_yuxing_sha",
-   "name": "太乙驭行•杀五行",
-   "expression": "L平5 - D平5 + D平4段 + 3",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 83.4
+    "id": "preset_cross_tail_ds_sha_8",
+    "name": "丹丘洞虚•跨期尾极",
+    "expression": "(A期D5 + 2* C期特 - 3) % 20",
+    "type": "tail",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_wuxing_xuanming_sha_wx10",
-   "name": "玄冥真诀•杀五行分部",
-   "expression": "平1*3 + 平2*2 + 特*2 + 7",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 95.26
+    "id": "preset_cross_tail_sha_21",
+    "name": "七曜离光•跨期杀尾",
+    "expression": "(A期特段 *2 + B期特段 - 1) % 10",
+    "type": "tail",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_wuxing_taiyi_sha_wx10",
-   "name": "太乙神数•杀五行分部",
-   "expression": "平1 + 平5 + 特 + 5",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_cross_tail_sha_23",
+    "name": "神霄断虚•跨期破尾",
+    "expression": "(A期平总和尾 *2 + C期特段 + 1) % 10",
+    "type": "tail",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_wuxing_qianyuan_sha_wx10",
-   "name": "乾元化象•杀五行分部",
-   "expression": "平1*2 + 平2*2 + 6",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 95.26
+    "id": "preset_cross_tail_sha_22",
+    "name": "紫微锁钥•跨期绝尾",
+    "expression": "(A期L5 + B期特头 + 0) % 10",
+    "type": "tail",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_wuxing_nil1_p3bo_sha",
-   "name": "洞天•杀行",
-   "expression": "逆L平1 + 平3波 + 9",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.44
+    "id": "preset_cross_tail_ds_sha_7",
+    "name": "真元玉柱•跨期尾衡",
+    "expression": "(A期D2 *2 + C期平总和尾 - 2) % 20",
+    "type": "tail",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_new_fission_wuxing10",
-   "name": "玄合五化•杀五行分部",
-   "expression": "平2合尾*3 + 平5五行 + 4",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 95.2
+    "id": "preset_cross_tail_ds_sha_6",
+    "name": "玄冥九尾•跨期尾分",
+    "expression": "(A期特合尾 + B期D4 + 1) % 20",
+    "type": "tail",
+    "win_rate": 99.2
   },
   {
-   "id": "preset_cross_wuxing_ds_sha_9",
-   "name": "五太混成•跨期行分",
-   "expression": "(A期D5 + 2* C期特 - 4) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_tail_ds_biyue",
+    "name": "碧月尾分•杀尾单双",
+    "expression": "平1*2 + 平4*2 + 平6*4 + 15",
+    "type": "tail_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_wuxing_da_sha_29",
-   "name": "五气朝元•跨期五分部",
-   "expression": "(A期逆L1 + 2* B期L4 - 2) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_tail_ds_tianmen",
+    "name": "天门尾分•杀尾单双",
+    "expression": "平1*4 + 平4*3",
+    "type": "tail_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_wuxing_da_sha_27",
-   "name": "乾坤造化•跨期行大",
-   "expression": "(A期L3 *2 + B期总和尾 - 1) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_tail_ds_kunxiang",
+    "name": "坤象尾分•杀尾单双",
+    "expression": "平3*2 + 平5*2 + 平6*4 + 13",
+    "type": "tail_ds",
+    "win_rate": 99.21
   },
   {
-   "id": "preset_cross_wuxing_da_sha_28",
-   "name": "阴阳升降•跨期行小",
-   "expression": "(A期L6 + 2* B期L4 - 2) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_wuxing_taibai_sha",
+    "name": "太白遁甲•杀五行",
+    "expression": "平1 - D6 + 特 + 平3*2 + 正1",
+    "type": "wuxing",
+    "win_rate": 85.8
   },
   {
-   "id": "preset_cross_wuxing_ds_sha_11",
-   "name": "水木清华•跨期行极",
-   "expression": "(A期D5 + 2* C期L5 + 4) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.41
+    "id": "preset_wuxing_jimie_sha",
+    "name": "五行寂灭•杀五行",
+    "expression": "平6 - D3 + 特 + 平5*3 + 正6",
+    "type": "wuxing",
+    "win_rate": 87.9
   },
   {
-   "id": "preset_cross_wuxing_ds_sha_10",
-   "name": "金火交辉•跨期行双",
-   "expression": "(A期D5 + 2* C期特尾 - 4) % 10",
-   "type": "wuxing",
-   "dimension_name": "五行",
-   "historical_win_rate_pct": 96.81
+    "id": "preset_wuxing_wuxing_guizhen_sha",
+    "name": "五行归真•杀五行",
+    "expression": "D平3 - D平3 + L平3波 + 5",
+    "type": "wuxing",
+    "win_rate": 88.54
   },
   {
-   "id": "preset_wuxing_ds_shuangmu",
-   "name": "双木元分•杀五行单双",
-   "expression": "平1*2 + 平3*2 + 平4*2 + 9",
-   "type": "wuxing_ds",
-   "dimension_name": "五行单双",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_wuxing_taiyi_yuxing_sha",
+    "name": "太乙驭行•杀五行",
+    "expression": "L平5 - D平5 + D平4段 + 3",
+    "type": "wuxing",
+    "win_rate": 83.4
   },
   {
-   "id": "preset_wuxing_ds_wujing",
-   "name": "五精元分•杀五行单双",
-   "expression": "平2*2 + 平4*2 + 平5*2 + 7",
-   "type": "wuxing_ds",
-   "dimension_name": "五行单双",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_wuxing_xuanming_sha_wx10",
+    "name": "玄冥真诀•杀五行分部",
+    "expression": "平1*3 + 平2*2 + 特*2 + 7",
+    "type": "wuxing",
+    "win_rate": 95.26
   },
   {
-   "id": "preset_dingshi_sansan_sha1",
-   "name": "三三来野•杀肖",
-   "expression": "期数和 + 平2尾 - 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": null
+    "id": "preset_wuxing_taiyi_sha_wx10",
+    "name": "太乙神数•杀五行分部",
+    "expression": "平1 + 平5 + 特 + 5",
+    "type": "wuxing",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_zodiac_jiugong_sha",
-   "name": "九宫绝灭•杀肖",
-   "expression": "D序 平3码-2",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.74
+    "id": "preset_wuxing_qianyuan_sha_wx10",
+    "name": "乾元化象•杀五行分部",
+    "expression": "平1*2 + 平2*2 + 6",
+    "type": "wuxing",
+    "win_rate": 95.26
   },
   {
-   "id": "preset_zodiac_xuanwu_sha",
-   "name": "玄武避凶•杀肖",
-   "expression": "期数和 + 平6尾 + 2",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 93.52
+    "id": "preset_wuxing_nil1_p3bo_sha",
+    "name": "洞天•杀行",
+    "expression": "逆L平1 + 平3波 + 9",
+    "type": "wuxing",
+    "win_rate": 96.44
   },
   {
-   "id": "preset_dingshi_1",
-   "name": "平特合冲•定肖",
-   "expression": "(首平×2 + 二平×3) 模12，平特合冲推算相冲凶肖，杀一冲肖定十一吉肖大盘",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_new_fission_wuxing10",
+    "name": "玄合五化•杀五行分部",
+    "expression": "平2合尾*3 + 平5五行 + 4",
+    "type": "wuxing",
+    "win_rate": 95.2
   },
   {
-   "id": "preset_dingshi_sansan_sha2",
-   "name": "三三玄通•杀肖",
-   "expression": "期数和 + 平2 - 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": null
+    "id": "preset_cross_wuxing_ds_sha_9",
+    "name": "五太混成•跨期行分",
+    "expression": "(A期D5 + 2* C期特 - 4) % 10",
+    "type": "wuxing",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_zodiac_lihuo_sha",
-   "name": "离火破煞•杀肖",
-   "expression": "期数和 + 平4尾 + 4",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 93.12
+    "id": "preset_cross_wuxing_da_sha_29",
+    "name": "五气朝元•跨期五分部",
+    "expression": "(A期逆L1 + 2* B期L4 - 2) % 10",
+    "type": "wuxing",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_zodiac_ziwei_sha",
-   "name": "紫微伏魔•杀肖",
-   "expression": "平3 - D6 + 特*2 + 平2 + 正4*3",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 93.1
+    "id": "preset_cross_wuxing_da_sha_27",
+    "name": "乾坤造化•跨期行大",
+    "expression": "(A期L3 *2 + B期总和尾 - 1) % 10",
+    "type": "wuxing",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_zodiac_jiutian_sha",
-   "name": "九天避凶•杀肖",
-   "expression": "(二平×2 + 四平×2 + 8) 模12杀相冲凶肖",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_cross_wuxing_da_sha_28",
+    "name": "阴阳升降•跨期行小",
+    "expression": "(A期L6 + 2* B期L4 - 2) % 10",
+    "type": "wuxing",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_dingshi_l4_sha_xiao",
-   "name": "天罡四象•杀肖",
-   "expression": "|L4 - 9| % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_cross_wuxing_ds_sha_11",
+    "name": "水木清华•跨期行极",
+    "expression": "(A期D5 + 2* C期L5 + 4) % 10",
+    "type": "wuxing",
+    "win_rate": 96.41
   },
   {
-   "id": "preset_dingshi_pinghe_wei_sha_xiao",
-   "name": "九极归元•杀肖",
-   "expression": "(平码总和个位 + 1) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.05
+    "id": "preset_cross_wuxing_ds_sha_10",
+    "name": "金火交辉•跨期行双",
+    "expression": "(A期D5 + 2* C期特尾 - 4) % 10",
+    "type": "wuxing",
+    "win_rate": 96.81
   },
   {
-   "id": "preset_dingshi_pinghe_sha_xiao",
-   "name": "太极合化•杀肖",
-   "expression": "|平码六数之和 - 2| % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_wuxing_ds_shuangmu",
+    "name": "双木元分•杀五行单双",
+    "expression": "平1*2 + 平3*2 + 平4*2 + 9",
+    "type": "wuxing_ds",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_dingshi_l5_head_sha_xiao",
-   "name": "玄武镇岳•杀肖",
-   "expression": "|平5十位数 - 7| % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_wuxing_ds_wujing",
+    "name": "五精元分•杀五行单双",
+    "expression": "平2*2 + 平4*2 + 平5*2 + 7",
+    "type": "wuxing_ds",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_dingshi_d4_sha_xiao",
-   "name": "四象生辉•杀肖",
-   "expression": "(升序平4 + 1) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_dingshi_sansan_sha1",
+    "name": "三三来野•杀肖",
+    "expression": "期数和 + 平2尾 - 5",
+    "type": "zodiac",
+    "win_rate": null
   },
   {
-   "id": "preset_dingshi_d2_sha_xiao",
-   "name": "两仪对冲•杀肖",
-   "expression": "(升序平2 + 6) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_zodiac_jiugong_sha",
+    "name": "九宫绝灭•杀肖",
+    "expression": "D序 平3码-2",
+    "type": "zodiac",
+    "win_rate": 94.74
   },
   {
-   "id": "preset_zodiac_qianyuan_sha",
-   "name": "乾元定煞•杀肖",
-   "expression": "L平3 + D平4 + D平3段 - 特 + 7",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.63
+    "id": "preset_zodiac_xuanwu_sha",
+    "name": "玄武避凶•杀肖",
+    "expression": "期数和 + 平6尾 + 2",
+    "type": "zodiac",
+    "win_rate": 93.52
   },
   {
-   "id": "preset_zodiac_siji_sha",
-   "name": "四极融通•杀肖",
-   "expression": "D平2合尾 + D平1门 + L平4行 + D平4段 + 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.23
+    "id": "preset_dingshi_1",
+    "name": "平特合冲•定肖",
+    "expression": "(首平×2 + 二平×3) 模12，平特合冲推算相冲凶肖，杀一冲肖定十一吉肖大盘",
+    "type": "zodiac",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_zodiac_xuanxu_sha",
-   "name": "玄虚贯日•杀肖",
-   "expression": "L平3合尾 - L平2门 + L平1行 + L平1段 + 3",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.23
+    "id": "preset_dingshi_sansan_sha2",
+    "name": "三三玄通•杀肖",
+    "expression": "期数和 + 平2 - 5",
+    "type": "zodiac",
+    "win_rate": null
   },
   {
-   "id": "preset_zodiac_tiansha_liuguang_sha",
-   "name": "天煞流光•杀肖",
-   "expression": "D平3 + D平1 - L平3段 - 特 - 9",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_zodiac_lihuo_sha",
+    "name": "离火破煞•杀肖",
+    "expression": "期数和 + 平4尾 + 4",
+    "type": "zodiac",
+    "win_rate": 93.12
   },
   {
-   "id": "preset_zodiac_ziwei_pojun_sha",
-   "name": "紫微破军•杀肖",
-   "expression": "L平5 - L平4波 + L平2*8 + 4",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.23
+    "id": "preset_zodiac_ziwei_sha",
+    "name": "紫微伏魔•杀肖",
+    "expression": "平3 - D6 + 特*2 + 平2 + 正4*3",
+    "type": "zodiac",
+    "win_rate": 93.1
   },
   {
-   "id": "preset_dingshi_d6_p6duan_sha_xiao",
-   "name": "极序段数•紫微定式杀肖",
-   "expression": "D平6 + 平6段 + 2",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 96.84
+    "id": "preset_zodiac_jiutian_sha",
+    "name": "九天避凶•杀肖",
+    "expression": "(二平×2 + 四平×2 + 8) 模12杀相冲凶肖",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_d6_teduan_sha",
-   "name": "真武•杀肖",
-   "expression": "D平6 + 特段 + 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 92.89
+    "id": "preset_dingshi_l4_sha_xiao",
+    "name": "天罡四象•杀肖",
+    "expression": "|L4 - 9| % 12",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_d2_p1bo_sha",
-   "name": "太虚•杀肖",
-   "expression": "D平2 + 平1波 + 4",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.23
+    "id": "preset_dingshi_pinghe_wei_sha_xiao",
+    "name": "九极归元•杀肖",
+    "expression": "(平码总和个位 + 1) % 12",
+    "type": "zodiac",
+    "win_rate": 96.05
   },
   {
-   "id": "preset_zodiac_p4wei_p4bo_sha",
-   "name": "四象•杀肖",
-   "expression": "平4尾 + 平4波 + 7",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.23
+    "id": "preset_dingshi_pinghe_sha_xiao",
+    "name": "太极合化•杀肖",
+    "expression": "|平码六数之和 - 2| % 12",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_tiangang_sha",
-   "name": "天罡破煞•杀肖",
-   "expression": "平1 + 平4 + 特*2 + 8",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 95.26
+    "id": "preset_dingshi_l5_head_sha_xiao",
+    "name": "玄武镇岳•杀肖",
+    "expression": "|平5十位数 - 7| % 12",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_chunyang_sha",
-   "name": "纯阳锁煞•杀肖",
-   "expression": "平1 + 平4*2 + 特*2 + 4",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.47
+    "id": "preset_dingshi_d4_sha_xiao",
+    "name": "四象生辉•杀肖",
+    "expression": "(升序平4 + 1) % 12",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_taiyin_sha",
-   "name": "太阴绝象•杀肖",
-   "expression": "平1 + 平4 + 特*2 + 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.47
+    "id": "preset_dingshi_d2_sha_xiao",
+    "name": "两仪对冲•杀肖",
+    "expression": "(升序平2 + 6) % 12",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_zodiac_wuming_sha",
-   "name": "五明杀肖•杀生肖",
-   "expression": "平1*2 + 平5*4 + 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_zodiac_qianyuan_sha",
+    "name": "乾元定煞•杀肖",
+    "expression": "L平3 + D平4 + D平3段 - 特 + 7",
+    "type": "zodiac",
+    "win_rate": 97.63
   },
   {
-   "id": "preset_zodiac_sanxing_sha",
-   "name": "三星杀肖•杀生肖",
-   "expression": "平1 + 平2 + 平3*3 + 3",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 98.02
+    "id": "preset_zodiac_siji_sha",
+    "name": "四极融通•杀肖",
+    "expression": "D平2合尾 + D平1门 + L平4行 + D平4段 + 5",
+    "type": "zodiac",
+    "win_rate": 97.23
   },
   {
-   "id": "preset_new_head_mul_sha_xiao",
-   "name": "头数三乘•杀肖",
-   "expression": "平3头*3 + 平6头 + 2",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.8
+    "id": "preset_zodiac_xuanxu_sha",
+    "name": "玄虚贯日•杀肖",
+    "expression": "L平3合尾 - L平2门 + L平1行 + L平1段 + 3",
+    "type": "zodiac",
+    "win_rate": 97.23
   },
   {
-   "id": "preset_new_bose_mul3_sha_xiao",
-   "name": "波元三乘•杀肖",
-   "expression": "平3波*3 + 平6波 + 5",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.6
+    "id": "preset_zodiac_tiansha_liuguang_sha",
+    "name": "天煞流光•杀肖",
+    "expression": "D平3 + D平1 - L平3段 - 特 - 9",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_new_men_mul2_sha_xiao",
-   "name": "门元双乘•杀肖",
-   "expression": "平2门*2 + 平4门 + 6",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.2
+    "id": "preset_zodiac_ziwei_pojun_sha",
+    "name": "紫微破军•杀肖",
+    "expression": "L平5 - L平4波 + L平2*8 + 4",
+    "type": "zodiac",
+    "win_rate": 97.23
   },
   {
-   "id": "preset_new_dseq_hewei_sha_xiao",
-   "name": "D序合尾化•杀肖",
-   "expression": "D序 D平2合尾 + D平5合尾 + 3",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 94.4
+    "id": "preset_dingshi_d6_p6duan_sha_xiao",
+    "name": "极序段数•紫微定式杀肖",
+    "expression": "D平6 + 平6段 + 2",
+    "type": "zodiac",
+    "win_rate": 96.84
   },
   {
-   "id": "preset_new_period_mul_sha_xiao",
-   "name": "期元乘化•杀肖",
-   "expression": "期数和*2 + 平6尾 + 4",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 93.9
+    "id": "preset_zodiac_d6_teduan_sha",
+    "name": "真武•杀肖",
+    "expression": "D平6 + 特段 + 5",
+    "type": "zodiac",
+    "win_rate": 92.89
   },
   {
-   "id": "preset_cross_zodiac_ds_sha_2",
-   "name": "紫府朝元•跨期肖衡",
-   "expression": "(A期L1 + 2* B期L1 - 1) % 24",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_zodiac_d2_p1bo_sha",
+    "name": "太虚•杀肖",
+    "expression": "D平2 + 平1波 + 4",
+    "type": "zodiac",
+    "win_rate": 97.23
   },
   {
-   "id": "preset_cross_zodiac_sha_15",
-   "name": "天机破甲•跨期杀肖",
-   "expression": "(A期L6 + C期特段 - 6) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 98.01
+    "id": "preset_zodiac_p4wei_p4bo_sha",
+    "name": "四象•杀肖",
+    "expression": "平4尾 + 平4波 + 7",
+    "type": "zodiac",
+    "win_rate": 97.23
   },
   {
-   "id": "preset_cross_zodiac_ds_sha_1",
-   "name": "两仪太素•跨期肖双",
-   "expression": "(A期L4 - B期平总和尾 + 0) % 24",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_zodiac_tiangang_sha",
+    "name": "天罡破煞•杀肖",
+    "expression": "平1 + 平4 + 特*2 + 8",
+    "type": "zodiac",
+    "win_rate": 95.26
   },
   {
-   "id": "preset_cross_zodiac_ds_sha_0",
-   "name": "九天化生•跨期肖分",
-   "expression": "(A期D5 + 2* B期总和尾 + 0) % 24",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 99.2
+    "id": "preset_zodiac_chunyang_sha",
+    "name": "纯阳锁煞•杀肖",
+    "expression": "平1 + 平4*2 + 特*2 + 4",
+    "type": "zodiac",
+    "win_rate": 94.47
   },
   {
-   "id": "preset_cross_zodiac_sha_16",
-   "name": "九霄斩勘•跨期绝肖",
-   "expression": "(A期逆L1 + C期特段 - 6) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 98.01
+    "id": "preset_zodiac_taiyin_sha",
+    "name": "太阴绝象•杀肖",
+    "expression": "平1 + 平4 + 特*2 + 5",
+    "type": "zodiac",
+    "win_rate": 94.47
   },
   {
-   "id": "preset_cross_zodiac_sha_17",
-   "name": "真武辟煞•跨期破肖",
-   "expression": "(A期D3 - C期特段 - 1) % 12",
-   "type": "zodiac",
-   "dimension_name": "生肖",
-   "historical_win_rate_pct": 97.61
+    "id": "preset_zodiac_wuming_sha",
+    "name": "五明杀肖•杀生肖",
+    "expression": "平1*2 + 平5*4 + 5",
+    "type": "zodiac",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_zodiac_ds_chunyang",
-   "name": "纯阳肖分•杀肖单双",
-   "expression": "平2*2 + 平3*3 + 平4*2 + 19",
-   "type": "zodiac_ds",
-   "dimension_name": "生肖单双",
-   "historical_win_rate_pct": 99.6
+    "id": "preset_zodiac_sanxing_sha",
+    "name": "三星杀肖•杀生肖",
+    "expression": "平1 + 平2 + 平3*3 + 3",
+    "type": "zodiac",
+    "win_rate": 98.02
   },
   {
-   "id": "preset_zodiac_ds_tiangang",
-   "name": "天罡肖分•杀肖单双",
-   "expression": "平1*4 + 平2*2 + 平5*2 + 13",
-   "type": "zodiac_ds",
-   "dimension_name": "生肖单双",
-   "historical_win_rate_pct": 99.6
+    "id": "preset_new_head_mul_sha_xiao",
+    "name": "头数三乘•杀肖",
+    "expression": "平3头*3 + 平6头 + 2",
+    "type": "zodiac",
+    "win_rate": 94.8
   },
   {
-   "id": "preset_zodiac_ds_taiyin",
-   "name": "太阴肖分•杀肖单双",
-   "expression": "平5*2 + 平6*2 + 13",
-   "type": "zodiac_ds",
-   "dimension_name": "生肖单双",
-   "historical_win_rate_pct": 99.6
+    "id": "preset_new_bose_mul3_sha_xiao",
+    "name": "波元三乘•杀肖",
+    "expression": "平3波*3 + 平6波 + 5",
+    "type": "zodiac",
+    "win_rate": 94.6
+  },
+  {
+    "id": "preset_new_men_mul2_sha_xiao",
+    "name": "门元双乘•杀肖",
+    "expression": "平2门*2 + 平4门 + 6",
+    "type": "zodiac",
+    "win_rate": 94.2
+  },
+  {
+    "id": "preset_new_dseq_hewei_sha_xiao",
+    "name": "D序合尾化•杀肖",
+    "expression": "D序 D平2合尾 + D平5合尾 + 3",
+    "type": "zodiac",
+    "win_rate": 94.4
+  },
+  {
+    "id": "preset_new_period_mul_sha_xiao",
+    "name": "期元乘化•杀肖",
+    "expression": "期数和*2 + 平6尾 + 4",
+    "type": "zodiac",
+    "win_rate": 93.9
+  },
+  {
+    "id": "preset_cross_zodiac_ds_sha_2",
+    "name": "紫府朝元•跨期肖衡",
+    "expression": "(A期L1 + 2* B期L1 - 1) % 24",
+    "type": "zodiac",
+    "win_rate": 99.2
+  },
+  {
+    "id": "preset_cross_zodiac_sha_15",
+    "name": "天机破甲•跨期杀肖",
+    "expression": "(A期L6 + C期特段 - 6) % 12",
+    "type": "zodiac",
+    "win_rate": 98.01
+  },
+  {
+    "id": "preset_cross_zodiac_ds_sha_1",
+    "name": "两仪太素•跨期肖双",
+    "expression": "(A期L4 - B期平总和尾 + 0) % 24",
+    "type": "zodiac",
+    "win_rate": 99.2
+  },
+  {
+    "id": "preset_cross_zodiac_ds_sha_0",
+    "name": "九天化生•跨期肖分",
+    "expression": "(A期D5 + 2* B期总和尾 + 0) % 24",
+    "type": "zodiac",
+    "win_rate": 99.2
+  },
+  {
+    "id": "preset_cross_zodiac_sha_16",
+    "name": "九霄斩勘•跨期绝肖",
+    "expression": "(A期逆L1 + C期特段 - 6) % 12",
+    "type": "zodiac",
+    "win_rate": 98.01
+  },
+  {
+    "id": "preset_cross_zodiac_sha_17",
+    "name": "真武辟煞•跨期破肖",
+    "expression": "(A期D3 - C期特段 - 1) % 12",
+    "type": "zodiac",
+    "win_rate": 97.61
+  },
+  {
+    "id": "preset_zodiac_ds_chunyang",
+    "name": "纯阳肖分•杀肖单双",
+    "expression": "平2*2 + 平3*3 + 平4*2 + 19",
+    "type": "zodiac_ds",
+    "win_rate": 99.6
+  },
+  {
+    "id": "preset_zodiac_ds_tiangang",
+    "name": "天罡肖分•杀肖单双",
+    "expression": "平1*4 + 平2*2 + 平5*2 + 13",
+    "type": "zodiac_ds",
+    "win_rate": 99.6
+  },
+  {
+    "id": "preset_zodiac_ds_taiyin",
+    "name": "太阴肖分•杀肖单双",
+    "expression": "平5*2 + 平6*2 + 13",
+    "type": "zodiac_ds",
+    "win_rate": 99.6
   }
- ]
-}
+]
