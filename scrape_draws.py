@@ -195,6 +195,29 @@ def fetch_b(url=SRC_B_LIST):
     return parse_b_html(http_get(url, timeout=25))
 
 
+def fetch_seed(url):
+    """拉取云端现值的 draws 列表（接受信封或裸数组）。"""
+    doc = json.loads(http_get(url, timeout=25))
+    rows = doc.get("draws") if isinstance(doc, dict) else doc
+    if not isinstance(rows, list):
+        raise ValueError("云端现值结构不符")
+    out = []
+    for row in rows:
+        try:
+            out.append({
+                "period": int(row["period"]),
+                "balls": [int(b) for b in row["balls"]],
+                "special": int(row["special"]),
+                "recorded_at": row.get("recorded_at") or "",
+                "source": row.get("source") or "seed",
+            })
+        except Exception:  # noqa: BLE001
+            continue
+    if not out:
+        raise ValueError("云端现值无有效记录")
+    return out
+
+
 def load_existing(path):
     if not os.path.exists(path):
         return {}
@@ -254,6 +277,8 @@ def write_output(path, store, status, source):
 def main():
     ap = argparse.ArgumentParser(description="猪半仙 ProMax 开奖抓取器")
     ap.add_argument("--out", default="cloud_draws.json")
+    ap.add_argument("--seed", default=os.environ.get("PROMAX_SEED_URL", ""),
+                    help="空库时先拉取的云端现值 URL（避免把完整历史覆盖成单期）")
     ap.add_argument("--backfill", type=int, default=0, help="从源 B 的 120 期页补最多 N 期缺失")
     ap.add_argument("--source", choices=["auto", "a", "b"], default="auto")
     ap.add_argument("--print", action="store_true", dest="dry", help="只打印不落盘")
@@ -262,6 +287,17 @@ def main():
     store = load_existing(args.out)
     if store:
         log("本地已有 %d 期，最新 %d" % (len(store), max(store)))
+    elif args.seed:
+        # 云端每次都是全新容器：先取仓库现值当基线，再增量合并
+        seed_url = args.seed + ("&" if "?" in args.seed else "?") + "cb=" + str(int(time.time()))
+        log("本地无基线，先拉云端现值：%s" % args.seed)
+        seeded, err = with_retry(lambda: fetch_seed(seed_url), "云端现值")
+        if seeded:
+            for d in seeded:
+                store[d["period"]] = d
+            log("云端现值 %d 期，最新 %d" % (len(store), max(store)))
+        else:
+            log("云端现值不可用：%s（将以空库起步，只写入本期）" % err)
 
     newest = None
     used = "none"
