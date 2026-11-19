@@ -308,5 +308,835 @@
     "maxLoss": 2,
     "tier": "excellent",
     "createdAt": 1795110792460
+  },
+  {
+    "id": "lab_mwnunrbp_ov40i",
+    "expr": "((头(特尾)*特码)*(尾(平6)-尾(特尾)))+0",
+    "dim": "sum",
+    "rate": 0.9782608695652174,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_4ii9k",
+    "expr": "((C平6*头(特头))*(平4%特合))+0",
+    "dim": "sum",
+    "rate": 0.978125,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_wyf1l",
+    "expr": "(头(B平5)*头(特码))+0",
+    "dim": "sum",
+    "rate": 0.9688473520249221,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ocz04",
+    "expr": "(平5%abs(特合))+0",
+    "dim": "sum",
+    "rate": 0.9658385093167702,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_p59mi",
+    "expr": "((特头-头(平3))+(头(特头)*平6))+0",
+    "dim": "sum",
+    "rate": 0.9658385093167702,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_8m409",
+    "expr": "((平5+特码)+(B平6-abs(特合)))+0",
+    "dim": "sum",
+    "rate": 0.9657320872274143,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_swiwd",
+    "expr": "((波(平6)*特头)*(abs(B特尾)*平3))+0",
+    "dim": "sum",
+    "rate": 0.9657320872274143,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_cetbv",
+    "expr": "(((头(B平3)-B特尾)*(平5%肖(C特码)))%((平1%平5)+(C平2*平3)))+4",
+    "dim": "sum",
+    "rate": 0.965625,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_wbjlh",
+    "expr": "((头(B特头)+平5)-(C特尾+段(平1)))+9",
+    "dim": "sum",
+    "rate": 0.965625,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_d922d",
+    "expr": "((头(特头)*平4)-(段(平6)%平5))+3",
+    "dim": "sum",
+    "rate": 0.9627329192546584,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_13ki3",
+    "expr": "(头(平6)%段(平3))+0",
+    "dim": "sum",
+    "rate": 0.9627329192546584,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_djybz",
+    "expr": "(肖(B平6)+头(平4))+0",
+    "dim": "zodiac",
+    "rate": 0.9626168224299065,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_304ig",
+    "expr": "(B特头-平5)+4",
+    "dim": "zodiac",
+    "rate": 0.9626168224299065,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_d3ztq",
+    "expr": "((平2+平1)+(特头%平2))+0",
+    "dim": "sum",
+    "rate": 0.9596273291925466,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_bf2b7",
+    "expr": "((特合-B特头)*(平6%B特码))+4",
+    "dim": "tail",
+    "rate": 0.9595015576323987,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_zo55u",
+    "expr": "(平6%B特合)+8",
+    "dim": "zodiac",
+    "rate": 0.9595015576323987,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_bglwn",
+    "expr": "(平1-abs(C特合))+3",
+    "dim": "sum",
+    "rate": 0.959375,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_g4eax",
+    "expr": "(((段(平2)+头(特头))-(特尾*头(平6)))+((平4%特合)+(B平5-头(C特合))))+3",
+    "dim": "zodiac",
+    "rate": 0.959375,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_mf4qz",
+    "expr": "(((abs(平3)-尾(平2))+(C特码+肖(平3)))+((肖(平5)+平4)+(头(B特合)*B平2)))+2",
+    "dim": "sum",
+    "rate": 0.959375,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_g4mbd",
+    "expr": "(((肖(平3)*头(C特合))+(特尾-C平3))-((C平1*abs(平4))+(特尾*肖(C平2))))+8",
+    "dim": "sum",
+    "rate": 0.959375,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_qxyq1",
+    "expr": "(((段(特码)*B平6)-(平5%C平6))-((abs(C特合)+平1)+(C平5%平6)))+3",
+    "dim": "sum",
+    "rate": 0.959375,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_0qrll",
+    "expr": "(合(平1)%平6)+4",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_6dqoe",
+    "expr": "((尾(特头)+尾(特尾))%(合(平5)+平6))+2",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_m7mw5",
+    "expr": "((尾(特尾)+头(平3))+(特合+特头))+6",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_trw5w",
+    "expr": "(平3%肖(平5))+2",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9333333333333333,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_q93pb",
+    "expr": "((特码*平1)*(平5+合(特合)))+1",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ipyua",
+    "expr": "(((abs(平4)*平3)-(abs(平3)%肖(平5)))+((段(平3)+特尾)-(合(平5)+平6)))+1",
+    "dim": "sum",
+    "rate": 0.9565217391304348,
+    "recent": 0.9333333333333333,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_hod62",
+    "expr": "((段(B平5)-平3)*(平4-波(平6)))+2",
+    "dim": "tail",
+    "rate": 0.956386292834891,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_c17cn",
+    "expr": "((平2-特合)-(B特头*波(平1)))+9",
+    "dim": "zodiac",
+    "rate": 0.956386292834891,
+    "recent": 0.9,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_riln6",
+    "expr": "(特头+头(B平3))+6",
+    "dim": "sum",
+    "rate": 0.956386292834891,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_9wtxh",
+    "expr": "((合(B平6)-平1)*(平5+段(B平3)))+1",
+    "dim": "sum",
+    "rate": 0.956386292834891,
+    "recent": 0.9,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_2uzjw",
+    "expr": "((尾(B特头)+B平3)+(特尾*abs(特码)))+5",
+    "dim": "sum",
+    "rate": 0.956386292834891,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_9om60",
+    "expr": "((特合*abs(B特头))%(abs(特合)+特头))+2",
+    "dim": "sum",
+    "rate": 0.956386292834891,
+    "recent": 0.9333333333333333,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_y7pag",
+    "expr": "(尾(特码)+段(C平6))+7",
+    "dim": "sum",
+    "rate": 0.95625,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ripzp",
+    "expr": "((特码+段(平1))-(头(C特码)-平4))+9",
+    "dim": "zodiac",
+    "rate": 0.95625,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_9xawg",
+    "expr": "((波(平2)%肖(C平1))%(C特合+平6))+0",
+    "dim": "sum",
+    "rate": 0.95625,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ejonz",
+    "expr": "((特合-平3)-(C特合*平1))+9",
+    "dim": "sum",
+    "rate": 0.95625,
+    "recent": 0.9333333333333333,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_0f38l",
+    "expr": "(((头(平3)-abs(C特头))-(头(特尾)*尾(特合)))*((B平1+abs(C特尾))*(波(B平4)-特码)))+4",
+    "dim": "tail",
+    "rate": 0.95625,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_6yyl9",
+    "expr": "(平1-平2)+7",
+    "dim": "sum",
+    "rate": 0.953416149068323,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_u7lj0",
+    "expr": "((特合+平1)*(尾(平2)-abs(特头)))+1",
+    "dim": "sum",
+    "rate": 0.953416149068323,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ogy2h",
+    "expr": "(abs(平3)-abs(平6))+3",
+    "dim": "zodiac",
+    "rate": 0.953416149068323,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_lqpgz",
+    "expr": "(特尾+头(平6))+1",
+    "dim": "sum",
+    "rate": 0.953416149068323,
+    "recent": 0.9,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_wdkce",
+    "expr": "(((平1*abs(特合))-(合(B特头)+B平3))*(平6%abs(特合)))+9",
+    "dim": "sum",
+    "rate": 0.9532710280373832,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_z2b6t",
+    "expr": "((尾(特码)+B特头)+(abs(特码)-特合))+2",
+    "dim": "zodiac",
+    "rate": 0.9532710280373832,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_nutlr",
+    "expr": "((平5*尾(B平3))+(平1%特合))+9",
+    "dim": "sum",
+    "rate": 0.9532710280373832,
+    "recent": 0.9,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_2l2fp",
+    "expr": "(((B特头%B特码)-(波(平4)+平1))+((平2-B平4)%(平1+平6)))+7",
+    "dim": "sum",
+    "rate": 0.9532710280373832,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_l8hi2",
+    "expr": "((特码+尾(特合))+(肖(平5)+合(B特头)))+4",
+    "dim": "zodiac",
+    "rate": 0.9532710280373832,
+    "recent": 0.8666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_8cje1",
+    "expr": "((合(B特码)*平5)*(B平2%特码))+9",
+    "dim": "sum",
+    "rate": 0.9532710280373832,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_o1f88",
+    "expr": "(肖(特码)*B平5)+9",
+    "dim": "sum",
+    "rate": 0.9532710280373832,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_dxl2p",
+    "expr": "((C平6-B特码)%(段(平1)+特头))+0",
+    "dim": "sum",
+    "rate": 0.953125,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_o351z",
+    "expr": "((C平2-特尾)-(abs(特尾)+特合))+6",
+    "dim": "sum",
+    "rate": 0.953125,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_psoo7",
+    "expr": "(波(C平3)+平1)+2",
+    "dim": "sum",
+    "rate": 0.953125,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_o3054",
+    "expr": "((波(平3)-肖(平4))-((平1%特合)*(段(特码)-C特头)))+4",
+    "dim": "sum",
+    "rate": 0.953125,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_rhzwy",
+    "expr": "((合(特码)%平2)+(特头-头(特合)))+1",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_35kes",
+    "expr": "(特头*平6)+8",
+    "dim": "zodiac",
+    "rate": 0.9503105590062112,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_yro74",
+    "expr": "(特码%肖(平3))+8",
+    "dim": "zodiac",
+    "rate": 0.9503105590062112,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_wlo4j",
+    "expr": "(((特头%abs(特合))-(特合%平4))-((特尾+平1)+(波(平6)+特码)))+6",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_cznx7",
+    "expr": "(波(平6)-特尾)+5",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_7j7v3",
+    "expr": "(平2+平4)+8",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_rto8o",
+    "expr": "(((平3*平2)*(平6*特头))*((合(平6)%特合)+(段(平3)+平5)))+0",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_uf1hx",
+    "expr": "((平2-平1)*(平3-平4))+5",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_me54g",
+    "expr": "(合(特尾)-头(特头))+3",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_61m6z",
+    "expr": "(段(特码)+特尾)+1",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9333333333333333,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_13twf",
+    "expr": "(尾(特尾)-平5)+6",
+    "dim": "sum",
+    "rate": 0.9503105590062112,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_dir80",
+    "expr": "((波(平6)+B平4)*(平6-波(平1)))+8",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ktgnn",
+    "expr": "(abs(特合)+尾(B特尾))+4",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_kf4yz",
+    "expr": "((肖(平2)%abs(平1))-(平3+波(B平6)))+5",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_7yzer",
+    "expr": "(合(平2)+B平1)+1",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 0.9,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_jpxn3",
+    "expr": "(平6*段(B平3))+5",
+    "dim": "zodiac",
+    "rate": 0.9501557632398754,
+    "recent": 0.9333333333333333,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_qeiu3",
+    "expr": "((头(B平1)*B特头)*(B特尾-平6))+2",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_tl8e3",
+    "expr": "(头(特头)-B平6)+4",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_8ihx7",
+    "expr": "(平4-段(B平5))+8",
+    "dim": "sum",
+    "rate": 0.9501557632398754,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_j71ls",
+    "expr": "(C特头+abs(特合))+4",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_dpz4w",
+    "expr": "((尾(平3)+平2)-(段(平2)-头(C平3)))+8",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_55o4p",
+    "expr": "(((平2%abs(平5))*(特尾*平5))+(abs(平6)*C平2))+8",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ikexm",
+    "expr": "(((段(平6)+平3)*(平5+abs(C平3)))+((平5-头(平3))-(abs(C平4)*尾(特尾))))+3",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_uvayw",
+    "expr": "((特头*平2)*(abs(平6)%C平4))+0",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_q9kl1",
+    "expr": "((肖(平1)%肖(C平6))*(平1+平3))+0",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 1,
+    "maxLoss": 1,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_g4ptd",
+    "expr": "(特码*abs(C特尾))+9",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_0rdwi",
+    "expr": "((合(平2)%合(C平4))-(平2+abs(特头)))+8",
+    "dim": "zodiac",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_0q81m",
+    "expr": "((尾(B平3)-头(特码))-(尾(平2)*C平3))+5",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_ksdbp",
+    "expr": "((C特头-特尾)-(合(B特码)%平3))+9",
+    "dim": "zodiac",
+    "rate": 0.95,
+    "recent": 1,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
+  },
+  {
+    "id": "lab_mwnunrbp_zse35",
+    "expr": "((abs(C平1)*C特头)-(合(平2)-尾(B特合)))+4",
+    "dim": "sum",
+    "rate": 0.95,
+    "recent": 0.9666666666666667,
+    "maxLoss": 2,
+    "tier": "excellent",
+    "createdAt": 1795110863893
   }
 ]
