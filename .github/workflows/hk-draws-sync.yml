@@ -1,0 +1,31 @@
+name: HK draws sync
+
+on:
+  schedule:
+    - cron: '36 13 * * 2,4,6'   # UTC 13:36 = 香港/北京 21:36，周二/四/六
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hk-draws-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync HK draws
+        env:
+          GH_DATA_TOKEN: ${{ secrets.GH_DATA_TOKEN }}   # 优先：仅 Contents: R/W 的 Fine-grained PAT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     # 回退：仓库自带 token
+          GH_OWNER: zjz520cc
+          GH_REPO: zhubanxian-data
+          GH_BRANCH: main
+        run: node hk-sync/hk-draws-sync.js
