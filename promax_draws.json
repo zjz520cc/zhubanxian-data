@@ -1,10 +1,10 @@
 {
  "schema": "promax.draws/1",
- "updated_at": "2026-11-26T18:46:43+08:00",
+ "updated_at": "2026-11-26T21:41:47+08:00",
  "status": "ok",
  "source": "A",
- "latest": 2026329,
- "count": 329,
+ "latest": 2026330,
+ "count": 330,
  "draws": [
   {
    "period": 2026001,
@@ -4610,6 +4610,20 @@
    ],
    "special": 44,
    "recorded_at": "2026-11-25T21:30:00+08:00",
+   "source": "A"
+  },
+  {
+   "period": 2026330,
+   "balls": [
+    25,
+    35,
+    20,
+    8,
+    30,
+    22
+   ],
+   "special": 26,
+   "recorded_at": "2026-11-26T21:30:00+08:00",
    "source": "A"
   }
  ]
