@@ -1,10 +1,42 @@
 {
   "version": 1,
   "lottery": "hk",
-  "updated_at": "2026-11-26T12:18:10Z",
-  "count": 808,
-  "latest": 2026124,
+  "updated_at": "2026-11-28T13:39:23Z",
+  "count": 809,
+  "latest": 2026125,
   "draws": [
+    {
+      "period": 2026125,
+      "balls": [
+        35,
+        18,
+        22,
+        17,
+        40,
+        23
+      ],
+      "special": 13,
+      "colors": [
+        "R",
+        "R",
+        "G",
+        "G",
+        "R",
+        "R",
+        "R"
+      ],
+      "zodiacs": [
+        "猴",
+        "牛",
+        "鸡",
+        "虎",
+        "兔",
+        "猴",
+        "马"
+      ],
+      "date": "2026-11-26",
+      "date_estimated": true
+    },
     {
       "period": 2026124,
       "date": "2026-11-24",
